@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import bubble from "../images/faizan/rectangle.png";
+// import bubble from "../images/faizan/rectangle.png";
 export default function SayHi({ content }) {
   return (
     <div className="pb-8 pt-16 p-4">
@@ -201,7 +201,7 @@ export default function SayHi({ content }) {
           </div>
         </div>
         <div className=" row-start-1 md:col-start-3  overflow-hidden md:h-[17rem] col-span-3 flex items-center justify-center relative pl-12">
-          <img src={bubble} className="w-[24rem]  object-cover" />
+          {/* <img src={bubble} className="w-[24rem]  object-cover" /> */}
         </div>
       </div>
     </div>
