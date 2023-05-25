@@ -3,7 +3,7 @@ import Logo from "./Logo";
 import ThemeToggle from "./themeToggle";
 import { gsap } from "gsap";
 import { Link, navigate } from "gatsby";
-import faizlogo from "../images/faizan /faizan logo.png";
+
 export default function Nav() {
   const [expanded, setExpanded] = useState(false);
   const manageNav = () => {

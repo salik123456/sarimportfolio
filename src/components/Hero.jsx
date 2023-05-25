@@ -1,5 +1,5 @@
 import React, { lazy, useEffect } from "react";
-import ava from "../images/faizan /Avatar/Hexagon.png";
+import ava from "../images/faizan/Avatar/Hexagon.png";
 
 const Carousel = () => {
   return <div className="border p-4 mt-20"></div>;
@@ -14,9 +14,9 @@ export default function Hero() {
             <img src={ava} className="w-full h-full object-contain" />
           </div>
           <div className="flex flex-col ml-4">
-            <p className="sg  text-[25px]">Faizan Sayani</p>
+            <p className="sg  text-[25px]">Sarim Khan</p>
             <p className="inter text-[16px] font-semibold dark:text-white/40 text-black/40">
-              Senior UX Designer
+              UI/ UX Design Wizard{" "}
             </p>
           </div>
         </div>

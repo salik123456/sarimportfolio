@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { projectList } from "./projects";
-import fai from "../images/faizan /Work/croods-1.png";
+
 const Project = ({ p }) => {
   return (
     <a

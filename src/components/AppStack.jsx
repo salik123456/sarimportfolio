@@ -1,19 +1,19 @@
 import React from "react";
-import l1 from "../images/faizan /website design 2/1.png";
-import l2 from "../images/faizan /website design 2/2.png";
-import l3 from "../images/faizan /website design 2/3.png";
-import l4 from "../images/faizan /website design 2/4.png";
-import l5 from "../images/faizan /website design 2/5.png";
-import l6 from "../images/faizan /website design 2/6.png";
-import l7 from "../images/faizan /website design 2/7.png";
-import l8 from "../images/faizan /website design 2/8.png";
-import l9 from "../images/faizan /website design 2/9.png";
-import l10 from "../images/faizan /website design 2/10.png";
-import l11 from "../images/faizan /website design 2/11.png";
-import l12 from "../images/faizan /website design 2/12.png";
-import l13 from "../images/faizan /website design 2/13.png";
-import l14 from "../images/faizan /website design 2/14.png";
-import l15 from "../images/faizan /website design 2/15.png";
+import l1 from "../images/faizan/website design 2/1.png";
+import l2 from "../images/faizan/website design 2/2.png";
+import l3 from "../images/faizan/website design 2/3.png";
+import l4 from "../images/faizan/website design 2/4.png";
+import l5 from "../images/faizan/website design 2/5.png";
+import l6 from "../images/faizan/website design 2/6.png";
+import l7 from "../images/faizan/website design 2/7.png";
+import l8 from "../images/faizan/website design 2/8.png";
+import l9 from "../images/faizan/website design 2/9.png";
+import l10 from "../images/faizan/website design 2/10.png";
+import l11 from "../images/faizan/website design 2/11.png";
+import l12 from "../images/faizan/website design 2/12.png";
+import l13 from "../images/faizan/website design 2/13.png";
+import l14 from "../images/faizan/website design 2/14.png";
+import l15 from "../images/faizan/website design 2/15.png";
 
 const applist = [
   l1,

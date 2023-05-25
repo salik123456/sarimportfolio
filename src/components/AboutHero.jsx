@@ -1,5 +1,5 @@
 import React from "react";
-import frameImg from "../images/faizan /collage.png";
+import frameImg from "../images/faizan/collage.png";
 import EndingLine from "./EndingLine";
 const certificates = [
   { name: "Google UX Design Professional", provider: "Google" },

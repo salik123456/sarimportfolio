@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import dp from "../images/dp.png";
 
 export default function Profile() {
   return (

@@ -1,13 +1,13 @@
 import React, { useEffect } from "react";
 import { gsap } from "gsap";
-import p1 from "../images/faizan /proj/BullionFX.png";
-import p2 from "../images/faizan /proj/Cyberstella.png";
-import p3 from "../images/faizan /proj/Frame 2029.png";
-import p4 from "../images/faizan /proj/image 16.png";
-import p5 from "../images/faizan /proj/image 6.png";
-import p6 from "../images/faizan /proj/image 844.png";
-import p7 from "../images/faizan /proj/image 846.png";
-import p8 from "../images/faizan /proj/image 847.png";
+import p1 from "../images/faizan/proj/BullionFX.png";
+import p2 from "../images/faizan/proj/Cyberstella.png";
+import p3 from "../images/faizan/proj/Frame 2029.png";
+import p4 from "../images/faizan/proj/image 16.png";
+import p5 from "../images/faizan/proj/image 6.png";
+import p6 from "../images/faizan/proj/image 844.png";
+import p7 from "../images/faizan/proj/image 846.png";
+import p8 from "../images/faizan/proj/image 847.png";
 
 export default function ImageMarquee({ reel }) {
   useEffect(() => {

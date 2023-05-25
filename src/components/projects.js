@@ -1,12 +1,12 @@
-import arb from "../images/faizan /Work/croods-1.png";
-import infra from "../images/faizan /Work/infra dapp.png";
-import krypt from "../images/faizan /Work/krypt ui.png";
-import kolnet from "../images/faizan /Work/kolne.png";
-import murask from "../images/faizan /Work/muraski.png";
-import Polkalokr from "../images/faizan /Work/polka.png";
-import gaming from "../images/faizan /Work/gaming.png";
-import digital from "../images/faizan /Work/digital.png";
-import blockchain from "../images/faizan /Work/blockchain.png";
+import arb from "../images/faizan/Work/croods-1.png";
+import infra from "../images/faizan/Work/infra dapp.png";
+import krypt from "../images/faizan/Work/krypt ui.png";
+import kolnet from "../images/faizan/Work/kolne.png";
+import murask from "../images/faizan/Work/muraski.png";
+import Polkalokr from "../images/faizan/Work/polka.png";
+import gaming from "../images/faizan/Work/gaming.png";
+import digital from "../images/faizan/Work/digital.png";
+import blockchain from "../images/faizan/Work/blockchain.png";
 
 export let projectList = [
   {

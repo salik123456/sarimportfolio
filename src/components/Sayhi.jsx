@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import bubble from "../images/faizan /rectangle.png";
+import bubble from "../images/faizan/rectangle.png";
 export default function SayHi({ content }) {
   return (
     <div className="pb-8 pt-16 p-4">

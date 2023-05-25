@@ -4,8 +4,8 @@ import Profile from "../components/Profile";
 import AboutHero from "../components/AboutHero";
 import Testimonials from "../components/Testimonials";
 import { graphql } from "gatsby";
-import T1 from "../images/faizan /website design 3/Group 1979.png";
-import T2 from "../images/faizan /website design 3/IMG_9263.png";
+import T1 from "../images/faizan/website design 3/Group 1979.png";
+import T2 from "../images/faizan/website design 3/IMG_9263.png";
 const IndexPage = ({ data }) => {
   return (
     <div className="dark:bg-[#111111] bg-white">
