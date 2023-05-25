@@ -10,7 +10,7 @@ export default function SayHi({ content }) {
             Want to create something awesome? Let’s get in touch and build
             something awesome!
           </p>
-          <div className="flex items-center justify-start mt-4">
+          <div className="flex items-center justify-start mt-4 pb-12">
             <a target="_blank" className="flex">
               <svg
                 width="98"
@@ -200,8 +200,11 @@ export default function SayHi({ content }) {
             </a>
           </div>
         </div>
-        <div className=" row-start-1 md:col-start-3  overflow-hidden md:h-[17rem] col-span-3 flex items-center justify-center relative pl-12">
-          <img src={bubble} className="w-[24rem]  object-cover" />
+        <div className=" row-start-1 md:col-start-3  overflow-hidden md:h-[17rem] col-span-3 flex items-center justify-center relative pl-8">
+          <img
+            src={bubble}
+            className="w-[24rem]  object-cover"
+          />
         </div>
       </div>
     </div>
