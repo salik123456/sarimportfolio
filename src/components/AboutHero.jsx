@@ -27,7 +27,7 @@ export default function AboutHero({ webinars }) {
       <h1 className="text-transparent bg-gradient-to-r from-[#DC79FF] to-[#256BFA] bg-clip-text text-[32px] font-bold">
         About
       </h1>
-      <p className="md:w-2/3 mx-auto text-center text-[18px]">
+      <p className="md:w-[77%] mx-auto text-center text-[18px]">
         It is that easy like snapping to search for me on the internet, just
         type sarim.design. Scroll down to know more about me.{" "}
       </p>

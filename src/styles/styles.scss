@@ -33,7 +33,16 @@ body {
   -moz-background-clip: text;
   -moz-text-fill-color: transparent;
 }
-
+.bgrad {
+  background: linear-gradient(
+    92.33deg,
+    rgba(255, 255, 255, 0.86) -14.47%,
+    rgba(98, 164, 241, 0.79) 11.69%,
+    rgba(127, 75, 238, 0.77) 52.2%,
+    rgba(21, 127, 251, 0.75) 100.25%
+  );
+  border-radius: 8px;
+}
 body::before {
   // animation: grain 10s steps(10) infinite;
   background-image: url("../images/image.webp");

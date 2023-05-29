@@ -7,10 +7,10 @@ export default function WorkHero() {
       <h1 className="text-transparent bg-gradient-to-r from-[#DC79FF] to-[#256BFA] bg-clip-text text-[32px] font-bold">
         Work
       </h1>
-      <p className="md:w-2/3 mx-auto text-center text-[18px]">
-        Over the course of years, I spent a significant amount of time creating
-        valuable designs for brands and agencies. Also, made a few design files
-        live for my Figma family.
+      <p className="md:w-[75%] mx-auto text-center text-[18px]">
+        Over the course of the year, I spent a significant amount of time
+        creating resources and tools for the community and many projects for
+        brands.
       </p>
     </div>
   );
