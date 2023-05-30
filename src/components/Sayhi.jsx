@@ -11,7 +11,7 @@ export default function SayHi() {
           <div className="tgrad font-bold text-[44px]">Say hi!</div>
           <p className="text-[18px] dark:text-white/70 text-black/70 mt-4">Want to create something awesome? Or, you have any query? Drop an email or connect.</p>
           <div className="flex mt-4">
-            <a target="_blank" href="https://www.linkedin.com/in/faizan-sayani-3b8363145/">
+            <a target="_blank" href="https://www.linkedin.com/in/sarimkhanweb3">
               <img src={lkbtn} />
             </a>
             <a target="_blank" href="mailto:hi@sarim.design" className="ml-8">
