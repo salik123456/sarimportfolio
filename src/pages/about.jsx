@@ -11,10 +11,11 @@ const IndexPage = ({ data }) => {
     <div className="dark:bg-[#111111] bg-white">
       <div className="relative z-10">
         <AboutHero />
-        <div className="container px-8 md:px-0  text-black dark:text-white mx-auto max-w-xl py-8 grid grid-cols-1 gap-4 md:grid-cols-2">
+        <Testimonials />
+        {/* <div className="container px-8 md:px-0  text-black dark:text-white mx-auto max-w-xl py-8 grid grid-cols-1 gap-4 md:grid-cols-2">
           <img src={T1} className="w-full h-full object-cover" />
           <img src={T2} className="w-full h-full object-cover" />
-        </div>
+        </div> */}
         <Profile />
       </div>
     </div>

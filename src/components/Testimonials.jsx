@@ -1,4 +1,29 @@
 import React from "react";
+import t1 from "../images/faizan/testimonials/Ellipse 1-1.png";
+import t2 from "../images/faizan/testimonials/Ellipse 1-2.png";
+import t3 from "../images/faizan/testimonials/Ellipse 1.png";
+
+const testimonals = [
+  {
+    photo: t3,
+    name: "Adila Sayyed",
+    desc: "Sarim is an amazing UX Designer! His knowledge of the user-centered design process is unmatched, and I was really impressed with how he was able to help us create an amazing experience for our customers. ",
+    loc: "@TINDEE",
+  },
+
+  {
+    photo: t2,
+    name: "Adil",
+    desc: "I was thoroughly impressed by Sarim’s UX design work for our company's website. He has a great eye for creating a user-friendly experience. We were really happy with the end result and would highly recommend working with Sarim!",
+    loc: "@Infra Dapp",
+  },
+  {
+    photo: t1,
+    name: "Zammar Ahmed",
+    desc: "I had the opportunity to work with Sarim on a major UX project, and he exceeded my expectations in every way. He is incredibly knowledgeable in the field of UX design and was able to quickly create a solution that satisfied our needs. Highly recommend him!",
+    loc: "@Esspfa",
+  },
+];
 
 export default function Testimonials({ content }) {
   return (
@@ -7,49 +32,49 @@ export default function Testimonials({ content }) {
         <div className="flex flex-col rounded-xl md:col-span-3 col-span-6 p-4 bg-gradient-to-r dark:from-[#1E1C32]/70 from-[#FFE9F4]/30 to-[#EAF3FF]/30 dark:to-[#2B161D]/70">
           <div className="flex items-center">
             <div className="w-10 h-10  rounded-full">
-              <img src={content.testimonals[0].photo.url} />
+              <img src={testimonals[0].photo} />
             </div>
-            <span className="pl-2 text-[14px]">
-              {content.testimonals[0].name}
-            </span>
-            <span className="pl-2 text-[12px] opacity-70">
-              {content.testimonals[0].location}
-            </span>
+            <div className="flex flex-col">
+              <span className="pl-2 text-[14px]">{testimonals[0].name}</span>
+              <span className="pl-2 text-[12px] opacity-70">
+                {testimonals[0].loc}
+              </span>
+            </div>
           </div>
           <div className="mt-4 text-[13.5px] opacity-60">
-            {content.testimonals[0].desc}
+            {testimonals[0].desc}
           </div>
         </div>
         <div className="flex flex-col rounded-xl md:col-span-3 col-span-6 p-4 bg-gradient-to-r dark:from-[#1E1C32]/70 from-[#FFE9F4]/30 to-[#EAF3FF]/30 dark:to-[#2B161D]/70">
           <div className="flex items-center">
             <div className="w-10 h-10  rounded-full">
-              <img src={content.testimonals[1].photo.url} />
+              <img src={testimonals[1].photo} />
             </div>
-            <span className="pl-2 text-[14px]">
-              {content.testimonals[1].name}
-            </span>
-            <span className="pl-2 text-[12px] opacity-70">
-              {content.testimonals[1].location}
-            </span>
+            <div className="flex flex-col">
+              <span className="pl-2 text-[14px]">{testimonals[1].name}</span>
+              <span className="pl-2 text-[12px] opacity-70">
+                {testimonals[1].loc}
+              </span>
+            </div>
           </div>
           <div className="mt-4 text-[13.5px] opacity-60">
-            {content.testimonals[1].desc}
+            {testimonals[1].desc}
           </div>
         </div>
         <div className="flex flex-col rounded-xl md:col-span-5 col-span-6 p-4 bg-gradient-to-r dark:from-[#1E1C32]/70 from-[#FFE9F4]/30 to-[#EAF3FF]/30 dark:to-[#2B161D]/70">
           <div className="flex items-center">
             <div className="w-10 h-10  rounded-full">
-              <img src={content.testimonals[2].photo.url} />
+              <img src={testimonals[2].photo} />
             </div>
-            <span className="pl-2 text-[14px]">
-              {content.testimonals[2].name}
-            </span>
-            <span className="pl-2 text-[12px] opacity-70">
-              {content.testimonals[2].location}
-            </span>
+            <div className="flex flex-col">
+              <span className="pl-2 text-[14px]">{testimonals[2].name}</span>
+              <span className="pl-2 text-[12px] opacity-70">
+                {testimonals[2].loc}
+              </span>
+            </div>
           </div>
           <div className="mt-4 text-[13.5px] opacity-60">
-            {content.testimonals[2].desc}
+            {testimonals[2].desc}
           </div>
         </div>
       </div>

@@ -29,6 +29,7 @@ export default function Nav() {
     }).to("#navfull", {
       transform: "translateY(-20rem)",
     });
+    setExpanded(!expanded);
     navigate(route);
   };
 
@@ -188,6 +189,7 @@ export default function Nav() {
           </a>
           <div className="border-l dark:border-l-white/20 border-l-black/20 h-[20px] mx-1"></div>
           <ThemeToggle />
+
           <button
             onClick={() => {
               manageNav();

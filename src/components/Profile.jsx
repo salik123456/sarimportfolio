@@ -4,12 +4,13 @@ export default function Profile() {
   return (
     <div className="relative overflow-hidden">
       <div className="container flex flex-col items-center justify-center mx-auto max-w-2xl pt-20 pb-12">
-        <div className="text-[14px] dark:text-white/60 text-black/30 mt-24 font-bold opacity-60 tracking-[0.2em]">
+        <div className="text-[14px] uppercase dark:text-white/60 text-black/30 mt-24 font-bold opacity-60 tracking-[0.2em]">
           connect with me{" "}
         </div>
         <div className="flex  relative z-10 sm:w-2/3 items-center justify-evenly mt-8">
           <a
             target="_blank"
+            href="https://www.linkedin.com/in/sarimkhanweb3"
             className=" m-2 sm:p-2 p-1 relative group overflow-hidden rounded-md"
           >
             <div className="absolute opacity-0 group-hover:opacity-100 transition-all duration-200 inset-0 bg-gradient-to-br dark:from-white/10 dark:to-white/30 from-black/10 to-black/30"></div>
@@ -43,6 +44,7 @@ export default function Profile() {
           </a>
           <a
             target="_blank"
+            href="https://www.instagram.com/ux.by.sarim/"
             className=" m-2 sm:p-2 p-1 relative group overflow-hidden rounded-md"
           >
             <div className="absolute opacity-0 group-hover:opacity-100 transition-all duration-200 inset-0 bg-gradient-to-br dark:from-white/10 dark:to-white/30 from-black/10 to-black/30"></div>
@@ -60,7 +62,7 @@ export default function Profile() {
               />
             </svg>
           </a>
-          <a
+          {/* <a
             target="_blank"
             className=" m-2 sm:p-2 p-1 relative group overflow-hidden rounded-md"
           >
@@ -80,10 +82,11 @@ export default function Profile() {
                 className="dark:fill-[#ECEDEE] fill-black"
               />
             </svg>
-          </a>
+          </a> */}
 
           <a
             target="_blank"
+            href="https://www.behance.net/sarimzai"
             className=" m-2 sm:p-2 p-1 relative group overflow-hidden rounded-md"
           >
             <div className="absolute opacity-0 group-hover:opacity-100 transition-all duration-200 inset-0 bg-gradient-to-br dark:from-white/10 dark:to-white/30 from-black/10 to-black/30"></div>
@@ -122,6 +125,7 @@ export default function Profile() {
 
           <a
             target="_blank"
+            href="https://www.figma.com/@sarimkhan"
             className=" m-2 sm:p-2 p-1 relative group overflow-hidden rounded-md"
           >
             <div className="absolute opacity-0 group-hover:opacity-100 transition-all duration-200 inset-0 bg-gradient-to-br dark:from-white/10 dark:to-white/30 from-black/10 to-black/30"></div>
@@ -162,7 +166,7 @@ export default function Profile() {
             </g>
           </svg>
 
-          <p className="dark:text-white/40 text-[12px] text-center text-black/40 mx-4">
+          <p className="dark:text-white/40 font-medium text-[10px] sm:text-[12px] text-center text-black/40 mx-4">
             Ideate, Create, & Go Live{" "}
           </p>
 

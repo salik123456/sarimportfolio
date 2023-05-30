@@ -7,7 +7,7 @@ export default function Moon() {
       height="17"
       viewBox="0 0 25 25"
       fill="none"
-      className=" dark:hidden block"
+      className=" hidden dark:block"
       xmlns="http://www.w3.org/2000/svg"
     >
       <g clip-path="url(#clip0_19_85)">

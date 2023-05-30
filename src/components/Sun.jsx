@@ -7,7 +7,7 @@ export default function Sun() {
       height="17"
       viewBox="0 0 17 17"
       fill="none"
-      className="dark:block hidden"
+      className="block dark:hidden"
       xmlns="http://www.w3.org/2000/svg"
     >
       <path

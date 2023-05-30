@@ -40,9 +40,10 @@ export default function AboutHero({ webinars }) {
         I have been using my designs to add a splash of color to the internet
         for the last 3 years. I specialize in helping businesses to perfect
         their visual aesthetics, in order to make their products more attractive
-        and user-friendly. Additionally, I am a part of the Figma community, in
-        the capacity of an educator. I share my insights with my peers and
-        design fanatics by giving out open-source design materials.
+        and user-friendly. Additionally, I am a part of the{" "}
+        <span className="link-grad">Figma community</span>, in the capacity of
+        an educator. I share my insights with my peers and design fanatics by
+        giving out open-source design materials.
         <br />
         <br />
       </p>
@@ -51,12 +52,11 @@ export default function AboutHero({ webinars }) {
       </div>
       <p className="max-w-lg mt-4 mb-12">
         Working as independent contractor and freelancer to help brands with web
-        and mobile design. You can find me on @fiverr or @insta. Other than
-        that, I spend most of my time helping community, design resources,
-        learning Product Design, experimenting in Figma, exploring the
-        possibilities of web3.
-        <span className="link-grad">Figma community</span> and actively helping
-        people on social platforms such as Discord and LinkedIn.
+        and mobile design. You can find me on{" "}
+        <span className="link-grad">@fiverr</span> or{" "}
+        <span className="link-grad">@insta</span>. Other than that, I spend most
+        of my time helping community, design resources, learning Product Design,
+        experimenting in Figma, exploring the possibilities of web3.
       </p>
       <div className="text-[14px] uppercase font-bold opacity-30 text-left max-w-lg w-full tracking-[0.2em]">
         Certifications
@@ -80,7 +80,7 @@ export default function AboutHero({ webinars }) {
       <div className="max-w-lg mt-4">
         For partnerships, collaborations, sponsorships, commissions, events, you
         can reach out to me at{" "}
-        <a href="mailto:hi@sarim.me" className="link-grad">
+        <a href="mailto:hi@sarim.design" className="link-grad">
           <strong>hi@sarim.me</strong>
         </a>{" "}
         or{" "}

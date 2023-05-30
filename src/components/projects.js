@@ -11,7 +11,7 @@ export let projectList = [
   {
     img: remit,
     name: "Remit",
-    link: "",
+    link: "https://www.behance.net/gallery/171473359/Remit-A-Finance-Tracking-App",
     desc: "Money transfer and expense tracker app",
     isfeatured: true,
     tag: "New",

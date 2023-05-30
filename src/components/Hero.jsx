@@ -20,7 +20,7 @@ export default function Hero() {
             </p>
           </div>
         </div>
-        <p className="text-[19.5px] mt-10 font-light ">
+        <p className="text-[19px] mt-10  ">
           I take a journey into the metaverse as a design wizard, utilizing my
           design art and illustrations to narrate my tales. I have an affinity
           for crafting designs for brands and creating design assets to benefit
