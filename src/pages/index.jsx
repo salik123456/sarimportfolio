@@ -13,7 +13,7 @@ const IndexPage = ({ data }) => {
       <div className="relative z-10">
         <Hero />
         <div className="container mx-auto max-w-2xl relative overflow-hidden">
-          <ImageMarquee />
+          <ImageMarquee theme={"Dark"} />
         </div>
         <Featuerd />
         <AppStack />
@@ -25,68 +25,15 @@ const IndexPage = ({ data }) => {
 };
 
 export default IndexPage;
-
-// export const Head = ({ data }) => {
-//   return (
-//     <>
-//       <title>{data.datoCmsSeo.title}</title>
-//       <meta property="og:title" content={data.datoCmsSeo.title} />
-//       <meta property="og:image" content={data.datoCmsSeo.previewImage.url} />
-//       <meta property="og:url" content={data.datoCmsSeo.url} />
-//       <meta property="og:description" content={data.datoCmsSeo.description} />
-//       <link rel="icon" type="image/x-icon" href={data.datoCmsSeo.favicon.url} />
-//     </>
-//   );
-// };
-
-// export const data = graphql`
-//   query AboutQuery {
-//     datoCmsHero {
-//       avatar {
-//         url
-//         alt
-//       }
-//       name
-//       post
-//       detail
-//     }
-
-//     datoCmsAppstack {
-//       desc
-//       app {
-//         url
-//       }
-//     }
-
-//     datoCmsReel {
-//       images {
-//         bwimage {
-//           url
-//         }
-//         colored {
-//           url
-//         }
-//       }
-//     }
-//     datoCmsSeo {
-//       description
-//       url
-//       title
-
-//       previewImage {
-//         url
-//       }
-//       favicon {
-//         url
-//       }
-//     }
-//     datoCmsSayhi {
-//       desc
-//       linkedinlink
-//       emaillink
-//       bubbleimage {
-//         url
-//       }
-//     }
-//   }
-// `;
+export const Head = () => {
+  return (
+    <>
+      <title>Sarim Khan ✦ Senior UX Designer</title>
+      <meta property="og:title" content="Faizan Sayani ✦ Senior UX Designer" />
+      {/* <meta property="og:image" content={data.datoCmsSeo.previewImage.url} /> */}
+      {/* <meta property="og:url" content={data.datoCmsSeo.url} /> */}
+      {/* <meta property="og:description" content={data.datoCmsSeo.description} /> */}
+      <link rel="icon" type="image/x-icon" href="../images/faizan /Avatar/Hexagon.png" />
+    </>
+  );
+};

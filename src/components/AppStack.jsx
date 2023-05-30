@@ -37,7 +37,7 @@ export default function AppStack({ content }) {
   return (
     <div className="flex flex-col mt-20 items-center justify-center pb-8 p-4">
       <div className="tgrad text-[32px] font-bold">Appstack</div>
-      <p className=" text-[18px] dark:text-white/30 text-black/30 mt-4 lg:w-[30%] sm:w-1/2 text-center">
+      <p className=" text-[18px] dark:text-white/70 text-black/70 mt-4 lg:w-[30%] sm:w-1/2 text-center">
         Sharing my on-the-go app stack from working, managing, entertaining and
         more{" "}
       </p>

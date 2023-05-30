@@ -12,7 +12,12 @@ module.exports = {
     "gatsby-plugin-sitemap",
     "gatsby-plugin-postcss",
     "gatsby-plugin-dark-mode",
-
+    {
+      resolve: "gatsby-plugin-manifest",
+      options: {
+        icon: "./src/images/faizan/Avatar/Hexagon.png",
+      },
+    },
     // {
     //   resolve: "gatsby-source-datocms",
     //   options: {

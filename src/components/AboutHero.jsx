@@ -24,76 +24,49 @@ const publications = [
 export default function AboutHero({ webinars }) {
   return (
     <div className="container px-8 md:px-4  text-black dark:text-white mx-auto max-w-2xl pt-36 flex  flex-col items-center justify-center">
-      <h1 className="text-transparent bg-gradient-to-r from-[#DC79FF] to-[#256BFA] bg-clip-text text-[32px] font-bold">
-        About
-      </h1>
-      <p className="md:w-[77%] mx-auto text-center text-[18px]">
-        It is that easy like snapping to search for me on the internet, just
-        type sarim.design. Scroll down to know more about me.{" "}
-      </p>
+      <h1 className="text-transparent bg-gradient-to-r from-[#DC79FF] to-[#256BFA] bg-clip-text text-[32px] font-bold">About</h1>
+      <p className="md:w-[77%] mx-auto text-center text-[18px]">It is that easy like snapping to search for me on the internet, just type sarim.design. Scroll down to know more about me. </p>
 
       <EndingLine />
       <div className="relative  overflow-hidden p-4 rounded-2xl">
         <img src={frameImg} className="w-full h-full object-cover" />
       </div>
       <p className="max-w-lg my-12 font-[500]">
-        I have been using my designs to add a splash of color to the internet
-        for the last 3 years. I specialize in helping businesses to perfect
-        their visual aesthetics, in order to make their products more attractive
-        and user-friendly. Additionally, I am a part of the{" "}
-        <span className="link-grad">Figma community</span>, in the capacity of
-        an educator. I share my insights with my peers and design fanatics by
-        giving out open-source design materials.
+        I have been using my designs to add a splash of color to the internet for the last 3 years. I specialize in helping businesses to perfect their visual aesthetics, in order to make their
+        products more attractive and user-friendly. Additionally, I am a part of the <span className="link-grad">Figma community</span>, in the capacity of an educator. I share my insights with my
+        peers and design fanatics by giving out open-source design materials.
         <br />
         <br />
       </p>
-      <div className="text-[14px] uppercase font-bold opacity-30 text-left max-w-lg w-full tracking-[0.2em]">
-        What I do when i’m free{" "}
-      </div>
+      <div className="text-[14px] uppercase font-bold opacity-30 text-left max-w-lg w-full tracking-[0.2em]">What I do when i’m free </div>
       <p className="max-w-lg mt-4 mb-12">
-        Working as independent contractor and freelancer to help brands with web
-        and mobile design. You can find me on{" "}
-        <span className="link-grad">@fiverr</span> or{" "}
-        <span className="link-grad">@insta</span>. Other than that, I spend most
-        of my time helping community, design resources, learning Product Design,
-        experimenting in Figma, exploring the possibilities of web3.
+        Working as independent contractor and freelancer to help brands with web and mobile design. You can find me on{" "}
+        <a href="https://www.fiverr.com/enhancing_ux" target="_blank" className="link-grad">
+          @fiverr
+        </a>{" "}
+        or <span className="link-grad">@insta</span>. Other than that, I spend most of my time helping community, design resources, learning Product Design, experimenting in Figma, exploring the
+        possibilities of web3.
       </p>
-      <div className="text-[14px] uppercase font-bold opacity-30 text-left max-w-lg w-full tracking-[0.2em]">
-        Certifications
-      </div>
+      <div className="text-[14px] uppercase font-bold opacity-30 text-left max-w-lg w-full tracking-[0.2em]">Certifications</div>
       <div className="flex flex-col items-start w-full max-w-lg pt-4 mb-12">
         {certificates.map((w, ind) => (
-          <a
-            key={ind}
-            href={w.link}
-            target="_blank"
-            className="my-1 hover:underline transition-all duration-300 cursor-pointer"
-          >
+          <a key={ind} href={w.link} target="_blank" className="my-1 hover:underline transition-all duration-300 cursor-pointer">
             {w.name}, <span className="opacity-40">{w.provider}</span>
           </a>
         ))}
       </div>
 
-      <div className="text-[14px] uppercase font-bold opacity-30 text-left max-w-lg w-full tracking-[0.2em]">
-        Serious enquiry{" "}
-      </div>
+      <div className="text-[14px] uppercase font-bold opacity-30 text-left max-w-lg w-full tracking-[0.2em]">Serious enquiry </div>
       <div className="max-w-lg mt-4">
-        For partnerships, collaborations, sponsorships, commissions, events, you
-        can reach out to me at{" "}
+        For partnerships, collaborations, sponsorships, commissions, events, you can reach out to me at{" "}
         <a href="mailto:hi@sarim.design" className="link-grad">
           <strong>hi@sarim.me</strong>
         </a>{" "}
         or{" "}
-        <a
-          target="_blank"
-          href="https://www.linkedin.com/in/iamfaisalmukhtar"
-          className="link-grad"
-        >
+        <a target="_blank" href="https://www.linkedin.com/in/iamfaisalmukhtar" className="link-grad">
           <strong>linkedin</strong>.
         </a>
-        <p className="mt-2 opacity-50 text-[14px]">
-          PS: Just have a cup of coffee while I’m sending you the love
-        </p>
+        <p className="mt-2 opacity-50 text-[14px]">PS: Just have a cup of coffee while I’m sending you the love</p>
       </div>
     </div>
   );

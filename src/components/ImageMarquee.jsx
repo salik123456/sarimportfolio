@@ -1,15 +1,24 @@
 import React, { useEffect } from "react";
 import { gsap } from "gsap";
-import p1 from "../images/faizan/proj/BullionFX.png";
-import p2 from "../images/faizan/proj/Cyberstella.png";
-import p3 from "../images/faizan/proj/Frame 2029.png";
-import p4 from "../images/faizan/proj/image 16.png";
-import p5 from "../images/faizan/proj/image 6.png";
-import p6 from "../images/faizan/proj/image 844.png";
-import p7 from "../images/faizan/proj/image 846.png";
-import p8 from "../images/faizan/proj/image 847.png";
+import pl1 from "../images/faizan/partnerlogoswhite/1.png";
+import pl2 from "../images/faizan/partnerlogoswhite/2.png";
+import pl3 from "../images/faizan/partnerlogoswhite/3.png";
+import pl4 from "../images/faizan/partnerlogoswhite/4.png";
+import pl5 from "../images/faizan/partnerlogoswhite/5.png";
+import pl6 from "../images/faizan/partnerlogoswhite/6.png";
+import pl7 from "../images/faizan/partnerlogoswhite/7.png";
+import pl8 from "../images/faizan/partnerlogoswhite/8.png";
 
-export default function ImageMarquee({ reel }) {
+import pd1 from "../images/faizan/partnerlogosblack/1.png";
+import pd2 from "../images/faizan/partnerlogosblack/2.png";
+import pd3 from "../images/faizan/partnerlogosblack/3.png";
+import pd4 from "../images/faizan/partnerlogosblack/4.png";
+import pd5 from "../images/faizan/partnerlogosblack/5.png";
+import pd6 from "../images/faizan/partnerlogosblack/6.png";
+import pd7 from "../images/faizan/partnerlogosblack/7.png";
+import pd8 from "../images/faizan/partnerlogosblack/8.png";
+
+export default function ImageMarquee({ theme }) {
   useEffect(() => {
     gsap.set(".box", {
       x: (i) => i * 200,
@@ -35,28 +44,28 @@ export default function ImageMarquee({ reel }) {
         <div class="wrapper text-white relative z-0 w-full ">
           <div class="boxes opacity-50">
             <div class="box flex items-center justify-center w-[180px]">
-              <img className="w-[150px]" src={p1} />
+              <img className="" src={theme === "Light" ? pl1 : pd1} />
             </div>
             <div class="box flex items-center justify-center w-[180px]">
-              <img className="w-[150px]" src={p2} />
+              <img className="" src={theme === "Light" ? pl2 : pd2} />
             </div>
             <div class="box flex items-center justify-center w-[180px]">
-              <img className="w-[150px]" src={p3} />
+              <img className="" src={theme === "Light" ? pl3 : pd3} />
             </div>
             <div class="box flex items-center justify-center w-[180px]">
-              <img className="w-[150px]" src={p4} />
+              <img className="" src={theme === "Light" ? pl4 : pd4} />
             </div>
             <div class="box flex items-center justify-center w-[180px]">
-              <img className="w-[150px]" src={p5} />
+              <img className="" src={theme === "Light" ? pl5 : pd5} />
             </div>
             <div class="box flex items-center justify-center  w-[180px]">
-              <img className="w-[150px]" src={p6} />
+              <img className="" src={theme === "Light" ? pl6 : pd6} />
             </div>
             <div class="box flex items-center justify-center  w-[180px]">
-              <img className="w-[150px]" src={p7} />
+              <img className="" src={theme === "Light" ? pl7 : pd7} />
             </div>
             <div class="box flex items-center justify-center w-[180px]">
-              <img className="w-[150px]" src={p8} />
+              <img className="" src={theme === "Light" ? pl8 : pd8} />
             </div>
           </div>
         </div>

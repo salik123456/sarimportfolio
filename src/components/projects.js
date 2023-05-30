@@ -1,6 +1,5 @@
 import arb from "../images/faizan/Work/croods-1.png";
 import infra from "../images/faizan/Work/infra dapp.png";
-import cgreen from "../images/faizan/Work/contra-kit green.png";
 import kolnet from "../images/faizan/Work/kolne.png";
 import murask from "../images/faizan/Work/muraski.png";
 import Polkalokr from "../images/faizan/Work/polka.png";
@@ -31,13 +30,6 @@ export let projectList = [
     desc: "Campaign marketing platform for brands",
     isfeatured: true,
     tag: "NEW",
-  },
-  {
-    img: cgreen,
-    name: "Krypt UI Kit",
-    link: "",
-    desc: "Crypto wallet UI kit for web3 designers",
-    isfeatured: true,
   },
 
   {

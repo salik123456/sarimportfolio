@@ -5,7 +5,7 @@ import { StaticQuery, graphql } from "gatsby";
 import WorkHero from "../components/WorkHero";
 import Featuerd from "../components/Featured";
 import EndingLine from "../components/EndingLine";
-import Testimonials from "../components/Testimonials";
+import FigCommunity from "../components/FigCommunity";
 
 const IndexPage = ({ data }) => {
   return (
@@ -14,8 +14,7 @@ const IndexPage = ({ data }) => {
         <WorkHero />
         <EndingLine />
         <Featuerd showHeading={false} />
-        {/* <Testimonials content={data.datoCmsAboutTitle} /> */}
-        {/* <SayHi content={data.datoCmsSayhi} /> */}
+        <FigCommunity />
         <Profile />
       </div>
     </div>
@@ -23,65 +22,15 @@ const IndexPage = ({ data }) => {
 };
 
 export default IndexPage;
-
-// export const Head = ({ data }) => {
-//   return (
-//     <>
-//       <title>{data.datoCmsSeo.title}</title>
-//       <meta property="og:title" content={data.datoCmsSeo.title} />
-//       <meta property="og:image" content={data.datoCmsSeo.previewImage.url} />
-//       <meta property="og:url" content={data.datoCmsSeo.url} />
-//       <meta property="og:description" content={data.datoCmsSeo.description} />
-//       <link rel="icon" type="image/x-icon" href={data.datoCmsSeo.favicon.url} />
-//     </>
-//   );
-// };
-// export const data = graphql`
-//   query AboutQuery {
-//     datoCmsFeaturedproject {
-//       projectlist {
-//         title
-//         desc
-//         photo {
-//           url
-//         }
-//         isfeatured
-//         link
-//       }
-//     }
-//     datoCmsSeo {
-//       description
-//       url
-//       title
-
-//       previewImage {
-//         url
-//       }
-//       favicon {
-//         url
-//       }
-//     }
-//     datoCmsAboutTitle {
-//       testimonals {
-//         photo {
-//           url
-//         }
-//         name
-//         location
-//         desc
-//       }
-//       webinars {
-//         text
-//         place
-//       }
-//     }
-//     datoCmsSayhi {
-//       desc
-//       linkedinlink
-//       emaillink
-//       bubbleimage {
-//         url
-//       }
-//     }
-//   }
-// `;
+export const Head = () => {
+  return (
+    <>
+      <title>Sarim Khan ✦ Senior UX Designer</title>
+      <meta property="og:title" content="Faizan Sayani ✦ Senior UX Designer" />
+      {/* <meta property="og:image" content={data.datoCmsSeo.previewImage.url} /> */}
+      {/* <meta property="og:url" content={data.datoCmsSeo.url} /> */}
+      {/* <meta property="og:description" content={data.datoCmsSeo.description} /> */}
+      <link rel="icon" type="image/x-icon" href="../images/faizan /Avatar/Hexagon.png" />
+    </>
+  );
+};

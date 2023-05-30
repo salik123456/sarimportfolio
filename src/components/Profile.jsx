@@ -4,24 +4,12 @@ export default function Profile() {
   return (
     <div className="relative overflow-hidden">
       <div className="container flex flex-col items-center justify-center mx-auto max-w-2xl pt-20 pb-12">
-        <div className="text-[14px] uppercase dark:text-white/60 text-black/30 mt-24 font-bold opacity-60 tracking-[0.2em]">
-          connect with me{" "}
-        </div>
+        <div className="text-[14px] uppercase dark:text-white/60 text-black/30 mt-24 font-bold opacity-60 tracking-[0.2em]">connect with me </div>
         <div className="flex  relative z-10 sm:w-2/3 items-center justify-evenly mt-8">
-          <a
-            target="_blank"
-            href="https://www.linkedin.com/in/sarimkhanweb3"
-            className=" m-2 sm:p-2 p-1 relative group overflow-hidden rounded-md"
-          >
+          <a target="_blank" href="https://www.linkedin.com/in/sarimkhanweb3" className=" m-2 sm:p-2 p-1 relative group overflow-hidden rounded-md">
             <div className="absolute opacity-0 group-hover:opacity-100 transition-all duration-200 inset-0 bg-gradient-to-br dark:from-white/10 dark:to-white/30 from-black/10 to-black/30"></div>
 
-            <svg
-              width="25"
-              height="25"
-              viewBox="0 0 25 24"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
+            <svg width="25" height="25" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path
                 fill-rule="evenodd"
                 clip-rule="evenodd"
@@ -42,39 +30,20 @@ export default function Profile() {
               />
             </svg>
           </a>
-          <a
-            target="_blank"
-            href="https://www.instagram.com/ux.by.sarim/"
-            className=" m-2 sm:p-2 p-1 relative group overflow-hidden rounded-md"
-          >
+          <a target="_blank" href="https://www.instagram.com/ux.by.sarim/" className=" m-2 sm:p-2 p-1 relative group overflow-hidden rounded-md">
             <div className="absolute opacity-0 group-hover:opacity-100 transition-all duration-200 inset-0 bg-gradient-to-br dark:from-white/10 dark:to-white/30 from-black/10 to-black/30"></div>
 
-            <svg
-              width="25"
-              height="25"
-              viewBox="0 0 25 25"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
+            <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M12.9854 0.678223C16.2494 0.678223 16.6574 0.678223 17.9294 0.750223C19.2014 0.798223 20.0894 1.01422 20.8574 1.30222C21.6254 1.61422 22.2973 2.02222 22.9694 2.69422C23.6414 3.34222 24.0494 4.01422 24.3614 4.80622C24.6494 5.57422 24.8654 6.43822 24.9134 7.73422C24.9614 9.00622 24.9854 9.41422 24.9854 12.6782C24.9854 15.9422 24.9614 16.3502 24.9134 17.6222C24.8654 18.8942 24.6494 19.7582 24.3614 20.5262C24.0494 21.3182 23.6414 21.9902 22.9694 22.6622C22.2973 23.3342 21.6254 23.7422 20.8574 24.0542C20.0894 24.3422 19.2014 24.5342 17.9294 24.6062C16.6574 24.6542 16.2494 24.6782 12.9854 24.6782C9.72135 24.6782 9.31335 24.6542 8.04135 24.6062C6.76935 24.5342 5.88135 24.3422 5.13735 24.0542C4.34535 23.7422 3.67335 23.3342 3.00135 22.6622C2.32935 21.9902 1.92135 21.3182 1.60935 20.5262C1.32135 19.7582 1.12935 18.8942 1.05735 17.6222C1.00935 16.3502 0.985352 15.9422 0.985352 12.6782C0.985352 9.41422 1.00935 9.00622 1.05735 7.73422C1.10535 6.43822 1.32135 5.57422 1.60935 4.80622C1.92135 4.01422 2.32935 3.34222 3.00135 2.69422C3.67335 2.02222 4.34535 1.61422 5.13735 1.30222C5.88135 1.01422 6.76935 0.798223 8.04135 0.750223C9.31335 0.678223 9.72135 0.678223 12.9854 0.678223ZM11.9054 2.83822C9.67335 2.83822 9.24135 2.83822 8.13735 2.91022C6.96135 2.95822 6.33735 3.15022 5.90535 3.31822C5.35335 3.53422 4.94535 3.79822 4.53735 4.20622C4.12935 4.61422 3.84135 5.02222 3.62535 5.59822C3.45735 6.00622 3.26535 6.65422 3.21735 7.83022C3.16935 9.07822 3.14535 9.46222 3.14535 12.6782C3.14535 15.8702 3.16935 16.2542 3.21735 17.5262C3.26535 18.6782 3.45735 19.3262 3.62535 19.7342C3.84135 20.3102 4.10535 20.6942 4.53735 21.1262C4.96935 21.5582 5.35335 21.7982 5.90535 22.0142C6.33735 22.1822 6.96135 22.3742 8.13735 22.4462C9.40935 22.4942 9.79335 22.5182 12.9854 22.5182C16.2014 22.5182 16.5614 22.4942 17.8334 22.4462C19.0094 22.3742 19.6334 22.1822 20.0654 22.0142C20.6174 21.7982 21.0254 21.5342 21.4334 21.1262C21.8654 20.7182 22.1294 20.3102 22.3454 19.7342C22.5134 19.3262 22.7054 18.6782 22.7534 17.5262C22.8014 16.2542 22.8254 15.8702 22.8254 12.6782C22.8254 9.46222 22.8014 9.07822 22.7534 7.83022C22.7054 6.65422 22.5134 6.00622 22.3454 5.59822C22.1294 5.04622 21.8654 4.63822 21.4334 4.20622C21.0254 3.79822 20.6174 3.53422 20.0654 3.31822C19.6334 3.15022 19.0094 2.95822 17.8334 2.91022C16.5614 2.83822 16.2014 2.83822 12.9854 2.83822C12.5774 2.83822 12.2414 2.83822 11.9054 2.83822ZM19.3934 4.83022C20.1854 4.83022 20.8334 5.47822 20.8334 6.27022C20.8334 7.06222 20.1854 7.71022 19.3934 7.71022C18.6014 7.71022 17.9534 7.06222 17.9534 6.27022C17.9534 5.47822 18.6014 4.83022 19.3934 4.83022ZM12.9854 6.51022C16.3934 6.51022 19.1534 9.27022 19.1534 12.6782C19.1534 16.0862 16.3934 18.8462 12.9854 18.8462C9.57735 18.8462 6.81735 16.0862 6.81735 12.6782C6.81735 9.27022 9.57735 6.51022 12.9854 6.51022ZM12.9854 8.67022C10.7774 8.67022 8.97735 10.4702 8.97735 12.6782C8.97735 14.8862 10.7774 16.6622 12.9854 16.6622C15.1934 16.6622 16.9934 14.8862 16.9934 12.6782C16.9934 10.4702 15.1934 8.67022 12.9854 8.67022Z"
                 className="dark:fill-[#ECEDEE] fill-black"
               />
             </svg>
           </a>
-          {/* <a
-            target="_blank"
-            className=" m-2 sm:p-2 p-1 relative group overflow-hidden rounded-md"
-          >
+          <a target="_blank" className=" m-2 sm:p-2 p-1 relative group overflow-hidden rounded-md">
             <div className="absolute opacity-0 group-hover:opacity-100 transition-all duration-200 inset-0 bg-gradient-to-br dark:from-white/10 dark:to-white/30 from-black/10 to-black/30"></div>
 
-            <svg
-              width="25"
-              height="25"
-              viewBox="0 0 25 24"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
+            <svg width="25" height="25" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path
                 fill-rule="evenodd"
                 clip-rule="evenodd"
@@ -82,22 +51,12 @@ export default function Profile() {
                 className="dark:fill-[#ECEDEE] fill-black"
               />
             </svg>
-          </a> */}
+          </a>
 
-          <a
-            target="_blank"
-            href="https://www.behance.net/sarimzai"
-            className=" m-2 sm:p-2 p-1 relative group overflow-hidden rounded-md"
-          >
+          <a target="_blank" href="https://www.behance.net/sarimzai" className=" m-2 sm:p-2 p-1 relative group overflow-hidden rounded-md">
             <div className="absolute opacity-0 group-hover:opacity-100 transition-all duration-200 inset-0 bg-gradient-to-br dark:from-white/10 dark:to-white/30 from-black/10 to-black/30"></div>
 
-            <svg
-              width="25"
-              height="25"
-              viewBox="0 0 24 24"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
+            <svg width="25" height="25" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M4.76226 8.38947C4.6518 8.38947 4.56226 8.47901 4.56226 8.58947V10.9653C4.56226 11.0757 4.6518 11.1653 4.76226 11.1653H7.51599C8.28251 11.1653 8.90389 10.5439 8.90389 9.77737C8.90389 9.01085 8.28251 8.38947 7.51599 8.38947H4.76226Z"
                 className="dark:fill-[#ECEDEE] fill-black"
@@ -123,20 +82,10 @@ export default function Profile() {
             </svg>
           </a>
 
-          <a
-            target="_blank"
-            href="https://www.figma.com/@sarimkhan"
-            className=" m-2 sm:p-2 p-1 relative group overflow-hidden rounded-md"
-          >
+          <a target="_blank" href="https://www.figma.com/@sarimkhan" className=" m-2 sm:p-2 p-1 relative group overflow-hidden rounded-md">
             <div className="absolute opacity-0 group-hover:opacity-100 transition-all duration-200 inset-0 bg-gradient-to-br dark:from-white/10 dark:to-white/30 from-black/10 to-black/30"></div>
 
-            <svg
-              width="25"
-              height="25"
-              viewBox="0 0 18 25"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
+            <svg width="25" height="25" viewBox="0 0 18 25" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path
                 fill-rule="evenodd"
                 clip-rule="evenodd"
@@ -147,18 +96,9 @@ export default function Profile() {
           </a>
         </div>
         <div className="pt-8  pb-8 px-4 flex items-center justify-center">
-          <svg
-            width="124"
-            height="15"
-            viewBox="0 0 124 15"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
+          <svg width="124" height="15" viewBox="0 0 124 15" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g opacity="0.12">
-              <path
-                d="M0.985352 7.67822L100.985 7.67821"
-                className="dark:stroke-white stroke-black"
-              />
+              <path d="M0.985352 7.67822L100.985 7.67821" className="dark:stroke-white stroke-black" />
               <path
                 d="M117.576 14.6782C120.472 14.6782 122.675 12.295 123.509 10.0375C123.957 8.86531 124.092 7.59186 123.9 6.3484C123.708 5.10494 123.197 3.93645 122.417 2.96326C120.957 1.22771 118.675 0.447949 115.999 0.737207C112.932 1.07677 110.839 3.21478 109.943 4.12657C109.643 4.44098 109.33 4.82458 108.98 5.24589C107.453 7.13236 105.722 9.25149 102.458 7.76118C102.117 7.55915 101.831 7.27244 101.626 6.92741C101.421 6.58237 101.304 6.19009 101.286 5.78667C101.295 5.32434 101.456 4.87855 101.743 4.52219C102.031 4.16584 102.428 3.91999 102.869 3.82475C103.252 3.79176 103.636 3.87568 103.972 4.06593C104.308 4.25617 104.582 4.54418 104.759 4.89371C104.792 4.982 104.843 5.06204 104.909 5.12845C104.975 5.19486 105.054 5.24615 105.141 5.2789C105.227 5.31164 105.32 5.32508 105.412 5.31835C105.504 5.31162 105.594 5.28483 105.675 5.23983C105.756 5.19482 105.827 5.13259 105.883 5.05729C105.939 4.98199 105.979 4.89537 105.999 4.80314C106.02 4.7109 106.021 4.61515 106.003 4.52235C105.985 4.42954 105.948 4.34179 105.894 4.26489C105.591 3.68308 105.126 3.20712 104.557 2.89794C103.989 2.58876 103.343 2.46043 102.704 2.52934C101.955 2.66423 101.276 3.06052 100.78 3.65088C100.285 4.24125 100.004 4.98928 99.9854 5.76778C99.9946 6.43788 100.182 7.09275 100.527 7.66216C100.871 8.23157 101.361 8.69404 101.943 8.99994C106.09 10.8487 108.428 7.98125 109.98 6.08849C110.293 5.70491 110.594 5.34647 110.864 5.05721C111.729 4.17686 113.527 2.33439 116.141 2.04513C118.38 1.79989 120.264 2.42875 121.436 3.81845C122.062 4.61066 122.471 5.55913 122.622 6.56678C122.773 7.57444 122.66 8.60511 122.295 9.55331C121.583 11.4838 119.675 13.4017 117.454 13.3262C116.263 13.2885 114.3 12.6345 113.772 10.9745C113.616 10.4576 113.59 9.90882 113.696 9.37891C113.803 8.849 114.038 8.35512 114.38 7.9431C114.722 7.53108 115.16 7.21419 115.653 7.0219C116.146 6.8296 116.679 6.7681 117.202 6.84305C117.29 6.85673 117.38 6.85065 117.465 6.82524C117.551 6.79982 117.63 6.75571 117.697 6.6959C117.764 6.63608 117.817 6.56198 117.854 6.47882C117.89 6.39565 117.909 6.30537 117.908 6.21422C117.915 6.12547 117.905 6.03606 117.878 5.9514C117.851 5.86673 117.807 5.78855 117.75 5.72157C117.693 5.6546 117.623 5.60022 117.544 5.56168C117.466 5.52315 117.381 5.50126 117.294 5.49736C116.458 5.40945 115.615 5.55961 114.857 5.93128C114.1 6.30296 113.457 6.88181 112.999 7.60397C112.667 8.16406 112.455 8.78997 112.377 9.44039C112.298 10.0908 112.356 10.7509 112.545 11.3769C113.251 13.5338 115.576 14.5713 117.454 14.6279L117.576 14.6782Z"
                 className="dark:fill-white fill-black"
@@ -166,22 +106,11 @@ export default function Profile() {
             </g>
           </svg>
 
-          <p className="dark:text-white/40 font-medium text-[10px] sm:text-[12px] text-center text-black/40 mx-4">
-            Ideate, Create, & Go Live{" "}
-          </p>
+          <p className="dark:text-white/40 font-medium text-[10px] sm:text-[12px] text-center text-black/40 mx-4">eat, design, sleep, repeat </p>
 
-          <svg
-            width="124"
-            height="15"
-            viewBox="0 0 124 15"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
+          <svg width="124" height="15" viewBox="0 0 124 15" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g opacity="0.12">
-              <path
-                d="M123.985 7.67822L23.9854 7.67821"
-                className="dark:stroke-white stroke-black"
-              />
+              <path d="M123.985 7.67822L23.9854 7.67821" className="dark:stroke-white stroke-black" />
               <path
                 d="M7.39447 14.6782C4.49845 14.6782 2.29573 12.295 1.46129 10.0375C1.01325 8.86531 0.878276 7.59186 1.07024 6.3484C1.26221 5.10494 1.7742 3.93645 2.55345 2.96326C4.01373 1.22771 6.29616 0.447949 8.97129 0.737207C12.0391 1.07677 14.1314 3.21478 15.0272 4.12657C15.3279 4.44098 15.6407 4.82458 15.9904 5.24589C17.5182 7.13236 19.2485 9.25149 22.5127 7.76118C22.8539 7.55915 23.14 7.27244 23.3448 6.92741C23.5496 6.58237 23.6664 6.19009 23.6845 5.78667C23.6762 5.32434 23.515 4.87855 23.2275 4.52219C22.94 4.16584 22.543 3.91999 22.1015 3.82475C21.7187 3.79176 21.335 3.87568 20.9987 4.06593C20.6624 4.25617 20.3886 4.54418 20.2118 4.89371C20.1785 4.982 20.1272 5.06204 20.0614 5.12845C19.9956 5.19486 19.9168 5.24615 19.8301 5.2789C19.7435 5.31164 19.651 5.32508 19.5589 5.31835C19.4667 5.31162 19.3771 5.28483 19.2958 5.23983C19.2146 5.19482 19.1437 5.13259 19.0877 5.05729C19.0318 4.98199 18.9921 4.89537 18.9714 4.80314C18.9506 4.7109 18.9493 4.61515 18.9675 4.52235C18.9856 4.42954 19.0228 4.34179 19.0767 4.26489C19.3796 3.68308 19.8451 3.20712 20.4134 2.89794C20.9818 2.58876 21.6272 2.46043 22.2672 2.52934C23.0155 2.66423 23.6952 3.06052 24.1907 3.65088C24.6862 4.24125 24.9671 4.98928 24.9854 5.76778C24.9761 6.43788 24.789 7.09275 24.4441 7.66216C24.0993 8.23157 23.6098 8.69404 23.028 8.99994C18.8803 10.8487 16.5427 7.98125 14.9904 6.08849C14.6775 5.70491 14.3768 5.34647 14.1068 5.05721C13.2417 4.17686 11.444 2.33439 8.83019 2.04513C6.59068 1.79989 4.70704 2.42875 3.53513 3.81845C2.90906 4.61066 2.49961 5.55913 2.34868 6.56678C2.19774 7.57444 2.31074 8.60511 2.67613 9.55331C3.38786 11.4838 5.29605 13.4017 7.51715 13.3262C8.70746 13.2885 10.6709 12.6345 11.1985 10.9745C11.3544 10.4576 11.3805 9.90882 11.2743 9.37891C11.1681 8.849 10.9331 8.35512 10.591 7.9431C10.249 7.53108 9.81099 7.21419 9.31762 7.0219C8.82425 6.8296 8.29149 6.7681 7.76873 6.84305C7.6808 6.85673 7.59096 6.85065 7.50554 6.82524C7.42013 6.79982 7.34115 6.75571 7.27403 6.6959C7.20692 6.63608 7.15332 6.56198 7.1169 6.47882C7.08048 6.39565 7.06211 6.30537 7.06312 6.21422C7.05559 6.12547 7.06564 6.03606 7.09271 5.9514C7.11977 5.86673 7.16331 5.78855 7.22063 5.72157C7.27796 5.6546 7.34792 5.60022 7.4263 5.56168C7.50468 5.52315 7.58984 5.50126 7.67668 5.49736C8.5124 5.40945 9.35554 5.55961 10.1133 5.93128C10.8711 6.30296 11.5142 6.88181 11.9716 7.60397C12.3036 8.16406 12.5158 8.78997 12.594 9.44039C12.6723 10.0908 12.6149 10.7509 12.4257 11.3769C11.7201 13.5338 9.39465 14.5713 7.51715 14.6279L7.39447 14.6782Z"
                 className="dark:fill-white fill-black"
@@ -212,46 +141,16 @@ export default function Profile() {
           </g>
         </g>
         <defs>
-          <filter
-            id="filter0_f_1_497"
-            x="-36.79"
-            y="25.7175"
-            width="1502.85"
-            height="1087.68"
-            filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
-          >
+          <filter id="filter0_f_1_497" x="-36.79" y="25.7175" width="1502.85" height="1087.68" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
             <feFlood flood-opacity="0" result="BackgroundImageFix" />
-            <feBlend
-              mode="normal"
-              in="SourceGraphic"
-              in2="BackgroundImageFix"
-              result="shape"
-            />
-            <feGaussianBlur
-              stdDeviation="150"
-              result="effect1_foregroundBlur_1_497"
-            />
+            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+            <feGaussianBlur stdDeviation="150" result="effect1_foregroundBlur_1_497" />
           </filter>
-          <linearGradient
-            id="paint0_linear_1_497"
-            x1="310.643"
-            y1="559.476"
-            x2="595.589"
-            y2="760.66"
-            gradientUnits="userSpaceOnUse"
-          >
+          <linearGradient id="paint0_linear_1_497" x1="310.643" y1="559.476" x2="595.589" y2="760.66" gradientUnits="userSpaceOnUse">
             <stop stop-color="#7EB3F1" />
             <stop offset="1" stop-color="#5790F6" />
           </linearGradient>
-          <linearGradient
-            id="paint1_linear_1_497"
-            x1="957.301"
-            y1="369.185"
-            x2="747.099"
-            y2="589.116"
-            gradientUnits="userSpaceOnUse"
-          >
+          <linearGradient id="paint1_linear_1_497" x1="957.301" y1="369.185" x2="747.099" y2="589.116" gradientUnits="userSpaceOnUse">
             <stop stop-color="#907CEE" />
             <stop offset="1" stop-color="#936FEE" />
           </linearGradient>

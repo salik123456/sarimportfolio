@@ -36,29 +36,16 @@ export default function Nav() {
   useEffect(() => {}, []);
   return (
     <header className="absolute px-4 z-20 top-0 left-0 right-0">
-      <div
-        id="navfull"
-        className="absolute px-4 translate-y-[-20rem] top-0 left-0 right-0 h-[20rem] bg-white dark:bg-black"
-      >
+      <div id="navfull" className="absolute px-4 translate-y-[-20rem] top-0 left-0 right-0 h-[20rem] bg-white dark:bg-black">
         <div className="pt-24 pr-2">
           <div className="flex flex-col items-start  justify-start text-2xl dark:text-white text-black text-[16px] font-medium">
-            <div
-              onClick={() => collapseNav("/about")}
-              className="my-2 py-2 mx-4 opacity-0 li"
-            >
+            <div onClick={() => collapseNav("/about")} className="my-2 py-2 mx-4 opacity-0 li">
               about
             </div>
-            <div
-              onClick={() => collapseNav("/work")}
-              className="my-2 py-2 mx-4 opacity-0 li"
-            >
+            <div onClick={() => collapseNav("/work")} className="my-2 py-2 mx-4 opacity-0 li">
               work
             </div>
-            <a
-              target="_blank"
-              href="https://drive.google.com/file/d/1G_uPzUiGnj2WdJLdx4yEnvEKUD53X9FS/view"
-              className="mx-4 py-2 my-2 opacity-0 li"
-            >
+            <a target="_blank" href="https://drive.google.com/file/d/1G_uPzUiGnj2WdJLdx4yEnvEKUD53X9FS/view" className="mx-4 py-2 my-2 opacity-0 li">
               resume
             </a>
           </div>
@@ -76,11 +63,10 @@ export default function Nav() {
             <Link to="/work" className="mx-4">
               work
             </Link>
-            <a
-              target="_blank"
-              href="https://drive.google.com/file/d/1G_uPzUiGnj2WdJLdx4yEnvEKUD53X9FS/view"
-              className="mx-4"
-            >
+            <a target="_blank" href="https://drive.google.com/file/d/1KDsSLPoPjDBy_Ct2961uxzzJAsuKYAQP/view" className="mx-4 hidden dark:block">
+              resume
+            </a>
+            <a target="_blank" href="https://drive.google.com/file/d/1-Tg4tPBsLG1hC1WG__PVGISVwrXjsImH/view" className="mx-4 dark:hidden block">
               resume
             </a>
             <div className="md:hidden">
@@ -89,18 +75,8 @@ export default function Nav() {
           </div>
         </div>
         <div className="flex items-center justify-center">
-          <a
-            target="_blank"
-            href="https://www.linkedin.com/in/sarimkhanweb3/"
-            className="mx-2 sm:mx-3"
-          >
-            <svg
-              width="18"
-              height="18"
-              viewBox="0 0 25 24"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
+          <a target="_blank" href="https://www.linkedin.com/in/sarimkhanweb3/" className="mx-2 sm:mx-3">
+            <svg width="18" height="18" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path
                 fill-rule="evenodd"
                 clip-rule="evenodd"
@@ -122,17 +98,8 @@ export default function Nav() {
             </svg>
           </a>
 
-          <a
-            target="_blank"
-            href="https://www.behance.net/sarimzai"
-            className="mx-2 sm:mx-3"
-          >
-            <svg
-              width="20"
-              height="20"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
+          <a target="_blank" href="https://www.behance.net/sarimzai" className="mx-2 sm:mx-3">
+            <svg width="20" height="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M4.76226 8.38947C4.6518 8.38947 4.56226 8.47901 4.56226 8.58947V10.9653C4.56226 11.0757 4.6518 11.1653 4.76226 11.1653H7.51599C8.28251 11.1653 8.90389 10.5439 8.90389 9.77737C8.90389 9.01085 8.28251 8.38947 7.51599 8.38947H4.76226Z"
                 className="fill-black dark:fill-white"
@@ -157,18 +124,8 @@ export default function Nav() {
               />
             </svg>
           </a>
-          <a
-            target="_blank"
-            href="https://www.instagram.com/ux.by.sarim/"
-            className="mx-2 sm:mx-3"
-          >
-            <svg
-              width="17"
-              height="17"
-              viewBox="0 0 17 17"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
+          <a target="_blank" href="https://www.instagram.com/ux.by.sarim/" className="mx-2 sm:mx-3">
+            <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
               <g clip-path="url(#clip0_2_504)">
                 <path
                   d="M8.896 0.678223C11.072 0.678223 11.344 0.678223 12.192 0.726223C13.04 0.758223 13.632 0.902223 14.144 1.09422C14.656 1.30222 15.104 1.57422 15.552 2.02222C16 2.45422 16.272 2.90222 16.48 3.43022C16.672 3.94222 16.816 4.51822 16.848 5.38222C16.88 6.23022 16.896 6.50222 16.896 8.67822C16.896 10.8542 16.88 11.1262 16.848 11.9742C16.816 12.8222 16.672 13.3982 16.48 13.9102C16.272 14.4382 16 14.8862 15.552 15.3342C15.104 15.7822 14.656 16.0542 14.144 16.2622C13.632 16.4542 13.04 16.5822 12.192 16.6302C11.344 16.6622 11.072 16.6782 8.896 16.6782C6.72 16.6782 6.448 16.6622 5.6 16.6302C4.752 16.5822 4.16 16.4542 3.664 16.2622C3.136 16.0542 2.688 15.7822 2.24 15.3342C1.792 14.8862 1.52 14.4382 1.312 13.9102C1.12 13.3982 0.991996 12.8222 0.943996 11.9742C0.911996 11.1262 0.895996 10.8542 0.895996 8.67822C0.895996 6.50222 0.911996 6.23022 0.943996 5.38222C0.975996 4.51822 1.12 3.94222 1.312 3.43022C1.52 2.90222 1.792 2.45422 2.24 2.02222C2.688 1.57422 3.136 1.30222 3.664 1.09422C4.16 0.902223 4.752 0.758223 5.6 0.726223C6.448 0.678223 6.72 0.678223 8.896 0.678223ZM8.176 2.11822C6.688 2.11822 6.4 2.11822 5.664 2.16622C4.88 2.19822 4.464 2.32622 4.176 2.43822C3.808 2.58222 3.536 2.75822 3.264 3.03022C2.992 3.30222 2.8 3.57422 2.656 3.95822C2.544 4.23022 2.416 4.66222 2.384 5.44622C2.352 6.27822 2.336 6.53422 2.336 8.67822C2.336 10.8062 2.352 11.0622 2.384 11.9102C2.416 12.6782 2.544 13.1102 2.656 13.3822C2.8 13.7662 2.976 14.0222 3.264 14.3102C3.552 14.5982 3.808 14.7582 4.176 14.9022C4.464 15.0142 4.88 15.1422 5.664 15.1902C6.512 15.2222 6.768 15.2382 8.896 15.2382C11.04 15.2382 11.28 15.2222 12.128 15.1902C12.912 15.1422 13.328 15.0142 13.616 14.9022C13.984 14.7582 14.256 14.5822 14.528 14.3102C14.816 14.0382 14.992 13.7662 15.136 13.3822C15.248 13.1102 15.376 12.6782 15.408 11.9102C15.44 11.0622 15.456 10.8062 15.456 8.67822C15.456 6.53422 15.44 6.27822 15.408 5.44622C15.376 4.66222 15.248 4.23022 15.136 3.95822C14.992 3.59022 14.816 3.31822 14.528 3.03022C14.256 2.75822 13.984 2.58222 13.616 2.43822C13.328 2.32622 12.912 2.19822 12.128 2.16622C11.28 2.11822 11.04 2.11822 8.896 2.11822C8.624 2.11822 8.4 2.11822 8.176 2.11822ZM13.168 3.44622C13.696 3.44622 14.128 3.87822 14.128 4.40622C14.128 4.93422 13.696 5.36622 13.168 5.36622C12.64 5.36622 12.208 4.93422 12.208 4.40622C12.208 3.87822 12.64 3.44622 13.168 3.44622ZM8.896 4.56622C11.168 4.56622 13.008 6.40622 13.008 8.67822C13.008 10.9502 11.168 12.7902 8.896 12.7902C6.624 12.7902 4.784 10.9502 4.784 8.67822C4.784 6.40622 6.624 4.56622 8.896 4.56622ZM8.896 6.00622C7.424 6.00622 6.224 7.20622 6.224 8.67822C6.224 10.1502 7.424 11.3342 8.896 11.3342C10.368 11.3342 11.568 10.1502 11.568 8.67822C11.568 7.20622 10.368 6.00622 8.896 6.00622Z"
@@ -177,12 +134,7 @@ export default function Nav() {
               </g>
               <defs>
                 <clipPath id="clip0_2_504">
-                  <rect
-                    width="16"
-                    height="16"
-                    fill="white"
-                    transform="translate(0.895996 0.678223)"
-                  />
+                  <rect width="16" height="16" fill="white" transform="translate(0.895996 0.678223)" />
                 </clipPath>
               </defs>
             </svg>
