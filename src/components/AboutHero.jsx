@@ -44,8 +44,11 @@ export default function AboutHero({ webinars }) {
         <a href="https://www.fiverr.com/enhancing_ux" target="_blank" className="link-grad">
           @fiverr
         </a>{" "}
-        or <span className="link-grad">@insta</span>. Other than that, I spend most of my time helping community, design resources, learning Product Design, experimenting in Figma, exploring the
-        possibilities of web3.
+        or{" "}
+        <a href="https://www.instagram.com/ux.by.sarim/" target="_blank" className="link-grad">
+          @insta
+        </a>
+        . Other than that, I spend most of my time helping community, design resources, learning Product Design, experimenting in Figma, exploring the possibilities of web3.
       </p>
       <div className="text-[14px] uppercase font-bold opacity-30 text-left max-w-lg w-full tracking-[0.2em]">Certifications</div>
       <div className="flex flex-col items-start w-full max-w-lg pt-4 mb-12">
@@ -63,7 +66,7 @@ export default function AboutHero({ webinars }) {
           <strong>hi@sarim.me</strong>
         </a>{" "}
         or{" "}
-        <a target="_blank" href="https://www.linkedin.com/in/iamfaisalmukhtar" className="link-grad">
+        <a target="_blank" href="https://www.linkedin.com/in/faizan-sayani-3b8363145/" className="link-grad">
           <strong>linkedin</strong>.
         </a>
         <p className="mt-2 opacity-50 text-[14px]">PS: Just have a cup of coffee while I’m sending you the love</p>

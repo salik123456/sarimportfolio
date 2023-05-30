@@ -13,7 +13,12 @@ const IndexPage = ({ data }) => {
       <div className="relative z-10">
         <Hero />
         <div className="container mx-auto max-w-2xl relative overflow-hidden">
-          <ImageMarquee theme={"Dark"} />
+          <div className="hidden dark:block">
+            <ImageMarquee theme={"Dark"} />
+          </div>
+          <div className="dark:hidden ">
+            <ImageMarquee theme={"Light"} />
+          </div>
         </div>
         <Featuerd />
         <AppStack />
