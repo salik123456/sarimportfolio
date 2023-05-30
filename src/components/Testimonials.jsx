@@ -53,7 +53,7 @@ export default function Testimonials({ content }) {
           </div>
           <div className="mt-4 text-[13.5px] opacity-60">{testimonals[1].desc}</div>
         </div>
-        <div className="flex flex-col rounded-xl md:col-span-5 col-span-6 p-4 bg-gradient-to-r  dark:from-[#F0D6FF]/10 from-[#F0D6FF]/20 to-[#D3CDFF]/20 dark:to-[#D3CDFF]/10">
+        <div className="flex flex-col rounded-xl col-span-6 p-4 bg-gradient-to-r  dark:from-[#F0D6FF]/10 from-[#F0D6FF]/20 to-[#D3CDFF]/20 dark:to-[#D3CDFF]/10">
           <div className="flex items-center">
             <div className="w-10 h-10  rounded-full">
               <img src={testimonals[2].photo} />

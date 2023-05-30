@@ -33,8 +33,11 @@ export default function AboutHero({ webinars }) {
       </div>
       <p className="max-w-lg my-12 font-[500]">
         I have been using my designs to add a splash of color to the internet for the last 3 years. I specialize in helping businesses to perfect their visual aesthetics, in order to make their
-        products more attractive and user-friendly. Additionally, I am a part of the <span className="link-grad">Figma community</span>, in the capacity of an educator. I share my insights with my
-        peers and design fanatics by giving out open-source design materials.
+        products more attractive and user-friendly. Additionally, I am a part of the{" "}
+        <a href="https://www.figma.com/@sarimkhan" target="_blank" className="link-grad">
+          Figma community
+        </a>
+        , in the capacity of an educator. I share my insights with my peers and design fanatics by giving out open-source design materials.
         <br />
         <br />
       </p>
@@ -53,9 +56,9 @@ export default function AboutHero({ webinars }) {
       <div className="text-[14px] uppercase font-bold opacity-30 text-left max-w-lg w-full tracking-[0.2em]">Certifications</div>
       <div className="flex flex-col items-start w-full max-w-lg pt-4 mb-12">
         {certificates.map((w, ind) => (
-          <a key={ind} href={w.link} target="_blank" className="my-1 hover:underline transition-all duration-300 cursor-pointer">
+          <div key={ind} className="my-1">
             {w.name}, <span className="opacity-40">{w.provider}</span>
-          </a>
+          </div>
         ))}
       </div>
 

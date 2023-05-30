@@ -45,7 +45,7 @@ const Project = ({ p }) => {
 export default function FigCommunity() {
   return (
     <div className="container mx-auto max-w-2xl p-4 text-black dark:text-white">
-      <div className="text-[14px] font-bold opacity-60 uppercase tracking-[0.2em]">Figma community </div>
+      <div className="text-[14px] w-full uppercase text-center md:w-fit md:text-left font-bold opacity-60 tracking-[0.2em]">Figma community</div>
       <div className="grid md:grid-cols-3 grid-cols-1 gap-2 mt-2">
         {figList.map((p, ind) => (
           <Project key={ind} p={p} />

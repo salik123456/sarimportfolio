@@ -37,6 +37,11 @@ export default function Featuerd({ showHeading = true }) {
 
         {!showHeading && projectList.map((p, ind) => <Project key={ind} p={p} />)}
       </div>
+      <div className="md:hidden">
+        <a href="/work" className="bg-gradient-to-r w-full text-center hidden md:block bg-clip-text text-transparent from-[#1584EB] to-[#24D6D9]">
+          All Work
+        </a>
+      </div>
     </div>
   );
 }
