@@ -7,19 +7,19 @@ const figList = [
   {
     img: fig1,
     name: "Animated FAQ’s Section",
-    link: "https://www.behance.net/gallery/171473359/Remit-A-Finance-Tracking-App",
+    link: "https://www.figma.com/community/file/1229425268896572977",
     desc: "A Figma community file for a FAQ’s section",
   },
   {
     img: fig2,
     name: "Horizontal Scrolling animation",
-    link: "https://www.behance.net/gallery/171473359/Remit-A-Finance-Tracking-App",
+    link: "https://www.figma.com/community/file/1201493747141236866",
     desc: "A Figma community file for a horizontally scrolled section",
   },
   {
     img: fig3,
     name: "Vertical Scrolling animation",
-    link: "https://www.behance.net/gallery/171473359/Remit-A-Finance-Tracking-App",
+    link: "https://www.figma.com/community/file/1197524769890004458",
     desc: "A Figma community file for a vertically scrolled section",
   },
 ];

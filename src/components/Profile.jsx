@@ -40,7 +40,7 @@ export default function Profile() {
               />
             </svg>
           </a>
-          <a target="_blank" className=" m-2 sm:p-2 p-1 relative group overflow-hidden rounded-md">
+          <a href="https://dribbble.com/zai2" target="_blank" className=" m-2 sm:p-2 p-1 relative group overflow-hidden rounded-md">
             <div className="absolute opacity-0 group-hover:opacity-100 transition-all duration-200 inset-0 bg-gradient-to-br dark:from-white/10 dark:to-white/30 from-black/10 to-black/30"></div>
 
             <svg width="25" height="25" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
