@@ -5,6 +5,7 @@ import murask from "../images/faizan/Work/muraski.png";
 import Polkalokr from "../images/faizan/Work/polka.png";
 import remit from "../images/faizan/Work/remit.png";
 import wacase from "../images/faizan/Work/wacase.png";
+import krypt from "../images/faizan/Work/contra-kit green.png";
 
 export let projectList = [
   {
@@ -31,7 +32,13 @@ export let projectList = [
     isfeatured: true,
     tag: "NEW",
   },
-
+  {
+    img: krypt,
+    name: "Krypt UI Kit",
+    link: "https://www.behance.net/gallery/157288861/Krypt-Cypto-Wallet-App-UI-Kit",
+    desc: "Crypto wallet UI kit for web3 designers",
+    isfeatured: false,
+  },
   {
     img: kolnet,
     name: "KOLnet",
