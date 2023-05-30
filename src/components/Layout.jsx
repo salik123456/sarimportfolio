@@ -12,10 +12,10 @@ export default function Layout({ children }) {
       </div>
       <main>{children}</main>
       {/* <Footer /> */}
-      <div className=" relative z-[100] b">
+      <div className=" relative">
         <svg
           width="1440"
-          className="absolute -bottom-2 right-[10rem] -left-[40rem] sm:right-0 sm:left-0 sm:w-screen "
+          className="absolute -bottom-0 right-[10rem] -left-[40rem] sm:right-0 sm:left-0 sm:w-screen "
           height="659"
           viewBox="0 0 1440 659"
           fill="none"
@@ -52,7 +52,7 @@ export default function Layout({ children }) {
             </clipPath>
           </defs>
         </svg>
-      </div>{" "}
+      </div>
     </div>
   );
 }
