@@ -24,7 +24,7 @@ export default function Hero() {
         </p>
         <p className="mt-4 text-black/60 dark:text-white/60 text-[18px]">
           I revel in producing what I adore through my work{" "}
-          <a target="_blank" href="https://www.expeditedesign.com/" className="tgrad">
+          <a target="_blank" href="https://expeditestudio.com/" className="tgrad">
             @expeditestudio
           </a>{" "}
         </p>

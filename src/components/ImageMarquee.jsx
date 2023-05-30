@@ -43,28 +43,28 @@ export default function ImageMarquee({ theme }) {
         <div className="absolute -top-7 right-0 bottom-0 bg-gradient-to-r from-transparent to-white dark:to-[#111111]/40 w-44 -translate-x-[4.5rem]  z-10"></div>
         <div class="wrapper text-white relative z-0 w-full ">
           <div class="boxes opacity-50">
-            <div class="box flex items-center justify-center w-[180px]">
+            <div class="box flex items-center justify-center w-[140px]">
               <img className="" src={theme === "Light" ? pl1 : pd1} />
             </div>
-            <div class="box flex items-center justify-center w-[180px]">
+            <div class="box flex items-center justify-center w-[140px]">
               <img className="" src={theme === "Light" ? pl2 : pd2} />
             </div>
-            <div class="box flex items-center justify-center w-[180px]">
+            <div class="box flex items-center justify-center w-[140px]">
               <img className="" src={theme === "Light" ? pl3 : pd3} />
             </div>
-            <div class="box flex items-center justify-center w-[180px]">
+            <div class="box flex items-center justify-center w-[140px]">
               <img className="" src={theme === "Light" ? pl4 : pd4} />
             </div>
-            <div class="box flex items-center justify-center w-[180px]">
+            <div class="box flex items-center justify-center w-[140px]">
               <img className="" src={theme === "Light" ? pl5 : pd5} />
             </div>
-            <div class="box flex items-center justify-center  w-[180px]">
+            <div class="box flex items-center justify-center  w-[140px]">
               <img className="" src={theme === "Light" ? pl6 : pd6} />
             </div>
-            <div class="box flex items-center justify-center  w-[180px]">
+            <div class="box flex items-center justify-center  w-[140px]">
               <img className="" src={theme === "Light" ? pl7 : pd7} />
             </div>
-            <div class="box flex items-center justify-center w-[180px]">
+            <div class="box flex items-center justify-center w-[140px]">
               <img className="" src={theme === "Light" ? pl8 : pd8} />
             </div>
           </div>
