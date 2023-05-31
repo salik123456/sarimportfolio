@@ -4,7 +4,7 @@
 module.exports = {
   siteMetadata: {
     title: `portfolio`,
-    siteUrl: `https://www.yourdomain.tld`,
+    siteUrl: `https://www.sarim.design`,
   },
   plugins: [
     "gatsby-plugin-sass",

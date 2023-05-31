@@ -24,7 +24,7 @@ export const Head = () => {
   return (
     <>
       <title>Sarim Khan ✦ Senior UX Designer</title>
-      <meta property="og:title" content="Faizan Sayani ✦ Senior UX Designer" />
+      <meta property="og:title" content="Sarim Khan ✦ Senior UX Designer" />
       {/* <meta property="og:image" content={data.datoCmsSeo.previewImage.url} /> */}
       {/* <meta property="og:url" content={data.datoCmsSeo.url} /> */}
       {/* <meta property="og:description" content={data.datoCmsSeo.description} /> */}
