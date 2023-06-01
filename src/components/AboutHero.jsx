@@ -66,7 +66,7 @@ export default function AboutHero({ webinars }) {
       <div className="max-w-lg mt-4">
         For partnerships, collaborations, sponsorships, commissions, events, you can reach out to me at{" "}
         <a href="mailto:hi@sarim.design" className="link-grad">
-          <strong>hi@sarim.me</strong>
+          <strong>hi@sarim.design</strong>
         </a>{" "}
         or{" "}
         <a target="_blank" href="https://www.linkedin.com/in/faizan-sayani-3b8363145/" className="link-grad">

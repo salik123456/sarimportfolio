@@ -35,7 +35,9 @@ const Project = ({ p }) => {
         <img className=" w-full aspect-square object-cover" src={p.img} />
       </div>
       <div className=" pl-4 md:pl-0 sm:w-4/5 w-2/3 md:w-full ">
-        <div className="text-[16px] font-bold pt-4">{p.name}</div>
+        <div className="text-[16px] font-bold pt-4">
+          <p className=" truncate text-ellipsis">{p.name}</p>
+        </div>
         <div className="text-[15px] dark:text-white/60 text-black/60">{p.desc}</div>
       </div>
     </a>

@@ -56,7 +56,7 @@ export default function Profile() {
           <a target="_blank" href="https://www.behance.net/sarimzai" className=" m-2 sm:p-2 p-1 relative group overflow-hidden rounded-md">
             <div className="absolute opacity-0 group-hover:opacity-100 transition-all duration-200 inset-0 bg-gradient-to-br dark:from-white/10 dark:to-white/30 from-black/10 to-black/30"></div>
 
-            <svg width="25" height="25" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M4.76226 8.38947C4.6518 8.38947 4.56226 8.47901 4.56226 8.58947V10.9653C4.56226 11.0757 4.6518 11.1653 4.76226 11.1653H7.51599C8.28251 11.1653 8.90389 10.5439 8.90389 9.77737C8.90389 9.01085 8.28251 8.38947 7.51599 8.38947H4.76226Z"
                 className="dark:fill-[#ECEDEE] fill-black"
