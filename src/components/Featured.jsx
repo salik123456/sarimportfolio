@@ -10,7 +10,7 @@ const Project = ({ p }) => {
     >
       <div className="   aspect-square sm:w-1/5 w-1/3  lg:w-full rounded-xl relative overflow-hidden">
         <img className=" w-full aspect-square object-cover" src={p.img} />
-        {p.tag && <div className="bgrad absolute rounded-full text-white px-2 uppercase top-2 left-4 text-xs ">{p.tag}</div>}
+        {p.tag && <div className="bgrad absolute rounded-full text-white md:px-2 px-1 uppercase top-2 md:left-4 left-2 md:text-xs text-[10px]">{p.tag}</div>}
       </div>
       <div className=" pl-4 md:pl-0 sm:w-4/5 w-2/3 md:w-full ">
         <div className="text-[16px] font-bold pt-4">{p.name}</div>
