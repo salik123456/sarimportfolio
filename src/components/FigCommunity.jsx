@@ -14,7 +14,7 @@ const figList = [
     img: fig2,
     name: "Horizontal Scrolling animation",
     link: "https://www.figma.com/community/file/1201493747141236866",
-    desc: "A Figma community file for a horizontally scrolled section",
+    desc: "A Figma community file for horizontally scrolled section",
   },
   {
     img: fig3,

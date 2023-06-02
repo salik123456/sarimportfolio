@@ -37,7 +37,7 @@ export default function Featuerd({ showHeading = true }) {
 
         {!showHeading && projectList.map((p, ind) => <Project key={ind} p={p} />)}
       </div>
-      <div className="pt-4 flex items-center justify-center">
+      <div className="pt-4 flex md:hidden items-center justify-center">
         <a href="/work" className="bg-gradient-to-r w-full text-center  bg-clip-text text-transparent from-[#1584EB] to-[#24D6D9]">
           All Work
         </a>
