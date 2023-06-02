@@ -11,11 +11,9 @@ export default function Layout({ children }) {
         <HeaderGradient />
       </div>
       <main>{children}</main>
-      {/* <Footer /> */}
-      <div className=" relative">
+      <div className=" relative ">
         <svg
-          width="1440"
-          className="absolute -bottom-0 right-[10rem] -left-[40rem] sm:right-0 sm:left-0 sm:w-screen "
+          className="absolute w-[440px] md:w-[900px] lg:w-[1440px] -bottom-0 right-[10rem] -left-[40rem] sm:right-0 sm:left-0 sm:w-screen "
           height="659"
           viewBox="0 0 1440 659"
           fill="none"
