@@ -45,7 +45,10 @@ export default function Nav() {
             <div onClick={() => collapseNav("/work")} className="my-2 py-2 mx-4 opacity-0 li">
               work
             </div>
-            <a target="_blank" href="https://drive.google.com/file/d/1G_uPzUiGnj2WdJLdx4yEnvEKUD53X9FS/view" className="mx-4 py-2 my-2 opacity-0 li">
+            <a target="_blank" href="https://drive.google.com/file/d/1KDsSLPoPjDBy_Ct2961uxzzJAsuKYAQP/view" className="mx-4 hidden dark:block">
+              resume
+            </a>
+            <a target="_blank" href="https://drive.google.com/file/d/1-Tg4tPBsLG1hC1WG__PVGISVwrXjsImH/view" className="mx-4 dark:hidden block">
               resume
             </a>
           </div>
