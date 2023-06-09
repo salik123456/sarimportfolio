@@ -51,8 +51,7 @@ export default function Nav() {
             <a target="_blank" href="https://drive.google.com/file/d/1SbXI0oSRh6WyP2HbSPk_4Y6HQ7sElezF/view?usp=sharing" className="mx-4 dark:hidden block">
               resume
             </a>
-          </div>{" "}
-          b
+          </div>
         </div>
       </div>
       <nav className="container  relative z-50 rounded-xl max-w-2xl dark:bg-black/20 bg-white/40 p-4  mx-auto mt-6 flex items-center justify-between">
