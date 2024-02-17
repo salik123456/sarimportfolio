@@ -12,6 +12,27 @@ import artbit from "../images/faizan/Work/artbit.png";
 
 export let projectList = [
   {
+    img: spacelance,
+    name: "Spacelance",
+    link: "https://www.behance.net/gallery/189475637/spacelance",
+    desc: "Landing page for providing freelance visa services",
+    isfeatured: true,
+  },
+  {
+    img: infradapp,
+    name: "Infra Dapp",
+    link: "https://www.behance.net/gallery/170669543/Infra-Dapp-Casestudy",
+    desc: "Campaign marketing platform for brands",
+    isfeatured: true,
+  },
+  {
+    img: artbit,
+    name: "Artbit UI Kit",
+    link: "https://www.behance.net/gallery/180262347/ARTbit-NFT-UI-kits",
+    desc: "NFT marketplace UI kit for fellow designers",
+    isfeatured: true,
+  },
+  {
     img: remit,
     name: "Remit",
     link: "https://www.behance.net/gallery/171473359/Remit-A-Finance-Tracking-App",
@@ -19,22 +40,9 @@ export let projectList = [
     isfeatured: false,
 
   },
-  {
-    img: arb,
-    name: "Artbit UI Kit",
-    link: "https://www.behance.net/gallery/180262347/ARTbit-NFT-UI-kits",
-    desc: "NFT marketplace UI kit for fellow designers",
-    isfeatured: false,
-  
-  },
-  {
-    img: infra,
-    name: "Infra Dapp",
-    link: "https://www.behance.net/gallery/170669543/Infra-Dapp-Casestudy",
-    desc: "Campaign marketing platform for brands",
-    isfeatured: false,
 
-  },
+
+
   {
     img: krypt,
     name: "Krypt UI Kit",
@@ -83,26 +91,6 @@ export let projectList = [
     link: "https://www.behance.net/gallery/120066063/Waleed-WhatsApp-Worries-UX-Case-Study",
     desc: "A case study to improve whatsapp group chats",
     isfeatured: false,
-  },
-  {
-    img: spacelance,
-    name: "Spacelance",
-    link: "https://www.behance.net/gallery/189475637/spacelance",
-    desc: "Landing page for providing freelance visa services",
-    isfeatured: true,
-  },
-  {
-    img: artbit,
-    name: "Artbit UI Kit",
-    link: "https://www.behance.net/gallery/180262347/ARTbit-NFT-UI-kits",
-    desc: "NFT marketplace UI kit for fellow designers",
-    isfeatured: true,
-  },
-  {
-    img: infradapp,
-    name: "Infra Dapp",
-    link: "https://www.behance.net/gallery/170669543/Infra-Dapp-Casestudy",
-    desc: "Campaign marketing platform for brands",
-    isfeatured: true,
-  },
+  }
+
 ];
