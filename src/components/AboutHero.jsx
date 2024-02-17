@@ -32,12 +32,15 @@ export default function AboutHero({ webinars }) {
         <img src={frameImg} className="w-full h-full object-cover" />
       </div>
       <p className="max-w-lg my-12 font-[500]">
-        I have been using my designs to add a splash of color to the internet for the last 3 years. I specialize in helping businesses to perfect their visual aesthetics, in order to make their
-        products more attractive and user-friendly. Additionally, I am a part of the{" "}
+      I have been using my designs to add a splash of color to the internet for the last 3 years. I specialize in helping businesses to perfect their visual aesthetics, in order to make their products more attractive and user-friendly. Additionally, I am an active member of the {" "}
         <a href="https://www.figma.com/@sarimkhan" target="_blank" className="link-grad">
           Figma community
         </a>
-        , in the capacity of an educator. I share my insights with my peers and design fanatics by giving out open-source design materials.
+        ,   <a href="https://orpetron.com/user/sarim+khan/" target="_blank" className="link-grad">
+        Orpetron
+        </a> & <a href="https://designed.org/mentors/sarimkhan" target="_blank" className="link-grad">
+        Design.org
+        </a>  in the capacity of an educator. I share my insights with my peers and design fanatics by giving out open-source design materials.
         <br />
         <br />
       </p>

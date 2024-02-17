@@ -6,6 +6,9 @@ import Polkalokr from "../images/faizan/Work/polka.png";
 import remit from "../images/faizan/Work/remit.png";
 import wacase from "../images/faizan/Work/wacase.png";
 import krypt from "../images/faizan/Work/contra-kit green.png";
+import spacelance from "../images/faizan/Work/spacelance.png";
+import infradapp from "../images/faizan/Work/infradapp.png";
+import artbit from "../images/faizan/Work/artbit.png";
 
 export let projectList = [
   {
@@ -13,24 +16,24 @@ export let projectList = [
     name: "Remit",
     link: "https://www.behance.net/gallery/171473359/Remit-A-Finance-Tracking-App",
     desc: "Money transfer and expense tracker app",
-    isfeatured: true,
-    tag: "New",
+    isfeatured: false,
+
   },
   {
     img: arb,
     name: "Artbit UI Kit",
-    link: "https://www.figma.com/community/file/1195361197446834656",
+    link: "https://www.behance.net/gallery/180262347/ARTbit-NFT-UI-kits",
     desc: "NFT marketplace UI kit for fellow designers",
-    isfeatured: true,
-    tag: "COMING SOON",
+    isfeatured: false,
+  
   },
   {
     img: infra,
     name: "Infra Dapp",
     link: "https://www.behance.net/gallery/170669543/Infra-Dapp-Casestudy",
     desc: "Campaign marketing platform for brands",
-    isfeatured: true,
-    tag: "NEW",
+    isfeatured: false,
+
   },
   {
     img: krypt,
@@ -66,5 +69,40 @@ export let projectList = [
     link: "https://www.behance.net/gallery/120066063/Waleed-WhatsApp-Worries-UX-Case-Study",
     desc: "A case study to improve whatsapp group chats",
     isfeatured: false,
+  },
+  {
+    img: wacase,
+    name: "Whatsapp Case Study",
+    link: "https://www.behance.net/gallery/120066063/Waleed-WhatsApp-Worries-UX-Case-Study",
+    desc: "A case study to improve whatsapp group chats",
+    isfeatured: false,
+  },
+  {
+    img: wacase,
+    name: "Whatsapp Case Study",
+    link: "https://www.behance.net/gallery/120066063/Waleed-WhatsApp-Worries-UX-Case-Study",
+    desc: "A case study to improve whatsapp group chats",
+    isfeatured: false,
+  },
+  {
+    img: spacelance,
+    name: "Spacelance",
+    link: "https://www.behance.net/gallery/189475637/spacelance",
+    desc: "Landing page for providing freelance visa services",
+    isfeatured: true,
+  },
+  {
+    img: artbit,
+    name: "Artbit UI Kit",
+    link: "https://www.behance.net/gallery/180262347/ARTbit-NFT-UI-kits",
+    desc: "NFT marketplace UI kit for fellow designers",
+    isfeatured: true,
+  },
+  {
+    img: infradapp,
+    name: "Infra Dapp",
+    link: "https://www.behance.net/gallery/170669543/Infra-Dapp-Casestudy",
+    desc: "Campaign marketing platform for brands",
+    isfeatured: true,
   },
 ];
