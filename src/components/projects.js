@@ -37,7 +37,7 @@ export let projectList = [
     name: "Remit",
     link: "https://www.behance.net/gallery/171473359/Remit-A-Finance-Tracking-App",
     desc: "Money transfer and expense tracker app",
-    isfeatured: false,
+    isfeatured: true,
 
   },
 
@@ -55,7 +55,7 @@ export let projectList = [
     name: "KOLnet",
     link: "https://www.behance.net/gallery/157431679/KOLnet-Marketing-Launchpad",
     desc: "Marketing protocol for influencers in web3",
-    isfeatured: false,
+    isfeatured: true,
   },
   {
     img: murask,
@@ -78,19 +78,19 @@ export let projectList = [
     desc: "A case study to improve whatsapp group chats",
     isfeatured: false,
   },
-  {
-    img: wacase,
-    name: "Whatsapp Case Study",
-    link: "https://www.behance.net/gallery/120066063/Waleed-WhatsApp-Worries-UX-Case-Study",
-    desc: "A case study to improve whatsapp group chats",
-    isfeatured: false,
-  },
-  {
-    img: wacase,
-    name: "Whatsapp Case Study",
-    link: "https://www.behance.net/gallery/120066063/Waleed-WhatsApp-Worries-UX-Case-Study",
-    desc: "A case study to improve whatsapp group chats",
-    isfeatured: false,
-  }
+  // {
+  //   img: wacase,
+  //   name: "Whatsapp Case Study",
+  //   link: "https://www.behance.net/gallery/120066063/Waleed-WhatsApp-Worries-UX-Case-Study",
+  //   desc: "A case study to improve whatsapp group chats",
+  //   isfeatured: false,
+  // },
+  // {
+  //   img: wacase,
+  //   name: "Whatsapp Case Study",
+  //   link: "https://www.behance.net/gallery/120066063/Waleed-WhatsApp-Worries-UX-Case-Study",
+  //   desc: "A case study to improve whatsapp group chats",
+  //   isfeatured: false,
+  // }
 
 ];
