@@ -15,7 +15,7 @@ export default function Hero() {
           </div>
           <div className="flex flex-col ml-4">
             <p className="sg  text-[25px]">Sarim Khan</p>
-            <p className="inter text-[16px] font-semibold dark:text-white/40 text-black/40">UI/ UX Design Wizard </p>
+            <p className="inter text-[16px] font-semibold dark:text-white/40 text-black/40">UX/ Product Designer </p>
           </div>
         </div>
         <p className="text-[19px] mt-10  ">

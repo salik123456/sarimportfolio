@@ -35,13 +35,13 @@ const applist = [
 
 export default function AppStack({ content }) {
   return (
-    <div className="flex flex-col mt-20 items-center justify-center pb-8 p-4">
+    <div className="flex flex-col mt-20 items-center justify-center pb-12 p-4">
       <div className="tgrad text-[32px] font-bold">Appstack</div>
       <p className=" text-[18px] dark:text-white/70 text-black/70 mt-4 lg:w-[30%] sm:w-1/2 text-center">
         Sharing my on-the-go app stack from working, managing, entertaining and
         more{" "}
       </p>
-      <div className="sm:w-[50%] md:w-[33%] mt-8 w-full grid grid-cols-3 px-4 lg:grid-cols-5 gap-3">
+      <div className="sm:w-[50%] md:w-[42%] mt-8 w-full grid grid-cols-3 px-4 lg:grid-cols-5 gap-3">
         {applist.map((t, ind) => (
           <div
             key={ind}
