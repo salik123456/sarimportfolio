@@ -31,7 +31,7 @@ export default function AboutHero({ webinars }) {
       <div className="relative  overflow-hidden p-4 rounded-2xl">
         <img src={frameImg} className="w-full h-full object-cover" />
       </div>
-      <p className="max-w-lg my-12 font-[500]">
+      <p className="max-w-[42rem] my-12 font-[500]">
       I have been using my designs to add a splash of color to the internet for the last 3 years. I specialize in helping businesses to perfect their visual aesthetics, in order to make their products more attractive and user-friendly. Additionally, I am an active member of the {" "}
         <a href="https://www.figma.com/@sarimkhan" target="_blank" className="link-grad">
           Figma community
@@ -44,8 +44,8 @@ export default function AboutHero({ webinars }) {
         <br />
         <br />
       </p>
-      <div className="text-[14px] uppercase font-bold opacity-30 text-left max-w-lg w-full tracking-[0.2em]">What I do when i’m free </div>
-      <p className="max-w-lg mt-4 mb-12">
+      <div className="text-[14px] uppercase font-bold opacity-30 text-left max-w-[42rem] w-full tracking-[0.2em]">What I do when i’m free </div>
+      <p className="max-w-[42rem] mt-4 mb-12">
         Working as independent contractor and freelancer to help brands with web and mobile design. You can find me on{" "}
         <a href="https://www.fiverr.com/enhancing_ux" target="_blank" className="link-grad">
           @fiverr
@@ -56,8 +56,8 @@ export default function AboutHero({ webinars }) {
         </a>
         . Other than that, I spend most of my time helping community, design resources, learning Product Design, experimenting in Figma, exploring the possibilities of web3.
       </p>
-      <div className="text-[14px] uppercase font-bold opacity-30 text-left max-w-lg w-full tracking-[0.2em]">Certifications</div>
-      <div className="flex flex-col items-start w-full max-w-lg pt-4 mb-12">
+      <div className="text-[14px] uppercase font-bold opacity-30 text-left max-w-[42rem] w-full tracking-[0.2em]">Certifications</div>
+      <div className="flex flex-col items-start w-full max-w-[42rem] pt-4 mb-12">
         {certificates.map((w, ind) => (
           <div key={ind} className="my-1">
             {w.name}, <span className="opacity-40">{w.provider}</span>
@@ -65,8 +65,8 @@ export default function AboutHero({ webinars }) {
         ))}
       </div>
 
-      <div className="text-[14px] uppercase font-bold opacity-30 text-left max-w-lg w-full tracking-[0.2em]">Serious enquiry </div>
-      <div className="max-w-lg mt-4">
+      <div className="text-[14px] uppercase font-bold opacity-30 text-left max-w-[42rem] w-full tracking-[0.2em]">Serious enquiry </div>
+      <div className="max-w-[42rem] mt-4">
         For partnerships, collaborations, sponsorships, commissions, events, you can reach out to me at{" "}
         <a href="mailto:hi@sarim.design" className="link-grad">
           <strong>hi@sarim.design</strong>
