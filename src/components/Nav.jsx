@@ -66,10 +66,10 @@ export default function Nav() {
             <Link to="/work" className="mx-4">
               work
             </Link>
-            <a target="_blank" href="https://drive.google.com/file/d/1CRN8hA7NAEa6QPyTc709xoSL6i61hFls/view?usp=sharing" className="mx-4 dark:hidden block">
+            <a target="_blank" href="https://drive.google.com/file/d/1-H8cm3M7d8snYIif3kM3Bul-hSdn9oEb/view?usp=sharing" className="mx-4 dark:hidden block">
               resume
             </a>
-            <a target="_blank" href="https://drive.google.com/file/d/1PpbN9QciKGCpvg4alTA0jiqYd28T4RdH/view?usp=sharing" className="mx-4 hidden dark:block">
+            <a target="_blank" href="https://drive.google.com/file/d/1dSCvhL3-5OyzNv9Q43QYAcJH7zKfyzac/view?usp=sharing" className="mx-4 hidden dark:block">
               resume
             </a>
             <div className="md:hidden">
