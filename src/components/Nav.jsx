@@ -45,10 +45,10 @@ export default function Nav() {
             <div onClick={() => collapseNav("/work")} className="my-2 py-2 mx-4 opacity-0 li">
               work
             </div>
-            <a target="_blank" href="https://drive.google.com/file/d/1-H8cm3M7d8snYIif3kM3Bul-hSdn9oEb/view?usp=sharing" className="mx-4 dark:hidden block">
+            <a target="_blank" href="https://drive.google.com/file/d/1wWapc56Ei0a2zO0cXKP8LaWPDwkn14AU/view" className="mx-4 dark:hidden block">
               resume
             </a>
-            <a target="_blank" href="https://drive.google.com/file/d/1dSCvhL3-5OyzNv9Q43QYAcJH7zKfyzac/view?usp=sharing" className="mx-4 hidden dark:block">
+            <a target="_blank" href="https://drive.google.com/file/d/1wWapc56Ei0a2zO0cXKP8LaWPDwkn14AU/view" className="mx-4 hidden dark:block">
               resume
             </a>
           </div>
@@ -66,10 +66,10 @@ export default function Nav() {
             <Link to="/work" className="mx-4">
               work
             </Link>
-            <a target="_blank" href="https://drive.google.com/file/d/1-H8cm3M7d8snYIif3kM3Bul-hSdn9oEb/view?usp=sharing" className="mx-4 dark:hidden block">
+            <a target="_blank" href="https://drive.google.com/file/d/1wWapc56Ei0a2zO0cXKP8LaWPDwkn14AU/view" className="mx-4 dark:hidden block">
               resume
             </a>
-            <a target="_blank" href="https://drive.google.com/file/d/1dSCvhL3-5OyzNv9Q43QYAcJH7zKfyzac/view?usp=sharing" className="mx-4 hidden dark:block">
+            <a target="_blank" href="https://drive.google.com/file/d/1wWapc56Ei0a2zO0cXKP8LaWPDwkn14AU/view" className="mx-4 hidden dark:block">
               resume
             </a>
             <div className="md:hidden">
