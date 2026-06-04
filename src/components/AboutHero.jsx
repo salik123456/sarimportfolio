@@ -32,7 +32,7 @@ export default function AboutHero({ webinars }) {
         <img src={frameImg} className="w-full h-full object-cover" />
       </div>
       <p className="max-w-[42rem] my-12 font-[500]">
-      I have been using my designs to add a splash of color to the internet for the last 3 years. I specialize in helping businesses to perfect their visual aesthetics, in order to make their products more attractive and user-friendly. Additionally, I am an active member of the {" "}
+      I have been using my designs to add a splash of color to the internet for the last 6+ years. I specialize in helping businesses to perfect their visual aesthetics, in order to make their products more attractive and user-friendly. Additionally, I am an active member of the {" "}
         <a href="https://www.figma.com/@sarimkhan" target="_blank" className="link-grad">
           Figma community
         </a>
