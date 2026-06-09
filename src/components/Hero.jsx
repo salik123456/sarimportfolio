@@ -19,8 +19,7 @@ export default function Hero() {
           </div>
         </div>
         <p className="text-[19px] mt-10  ">
-          I take a journey into the metaverse as a design wizard, utilizing design art and illustrations to narrate my tales. I have an affinity for crafting designs for brands and creating design
-          assets to benefit the public.
+          Senior Product Designer with 6 years of experience across fintech, SaaS, and Web3. Currently at Finstreet in Abu Dhabi, where I lead design across multiple financial products and own the design system end to end. I design for clarity, for compliance, and for real users making real decisions.
         </p>
         <p className="mt-4 text-black/60 dark:text-white/60 text-[18px]">
           I revel in producing what I adore through my work{" "}

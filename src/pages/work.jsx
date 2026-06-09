@@ -29,7 +29,7 @@ export const Head = () => {
       <meta property="og:title" content="Sarim Khan ✦ Senior UX Designer" />
       <meta property="og:image" content="../images/faizan/ogimage.png" />
       {/* <meta property="og:url" content={data.datoCmsSeo.url} /> */}
-      <meta property="og:description" content="I take a journey into the metaverse as a design wizard, utilizing design art and illustrations to narrate my tales." />
+      <meta property="og:description" content="Senior Product Designer with 6 years of experience in fintech, SaaS, and Web3. Based in UAE." />
       <link rel="icon" type="image/x-icon" href="../images/faizan /Avatar/Hexagon.png" />
     </>
   );

@@ -6,7 +6,7 @@ export default function Profile() {
       <div className="container flex flex-col items-center justify-center mx-auto max-w-2xl pt-20 pb-12">
         <div className="text-[14px] uppercase dark:text-white/60 text-black/30 mt-24 font-bold opacity-60 tracking-[0.2em]">connect with me </div>
         <div className="flex  relative z-10 sm:w-2/3 items-center justify-evenly mt-8">
-          <a target="_blank" href="https://www.linkedin.com/in/sarimkhanweb3" className=" m-2 sm:p-2 p-1 relative group overflow-hidden rounded-md">
+          <a target="_blank" href="https://www.linkedin.com/in/sarimkhan-productdesigner/" className=" m-2 sm:p-2 p-1 relative group overflow-hidden rounded-md">
             <div className="absolute opacity-0 group-hover:opacity-100 transition-all duration-200 inset-0 bg-gradient-to-br dark:from-white/10 dark:to-white/30 from-black/10 to-black/30"></div>
 
             <svg width="25" height="25" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">

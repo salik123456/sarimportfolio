@@ -78,7 +78,7 @@ export default function Nav() {
           </div>
         </div>
         <div className="flex items-center justify-center">
-          <a target="_blank" href="https://www.linkedin.com/in/sarimkhanweb3/" className="mx-2 sm:mx-3">
+          <a target="_blank" href="https://www.linkedin.com/in/sarimkhan-productdesigner/" className="mx-2 sm:mx-3">
             <svg width="18" height="18" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path
                 fill-rule="evenodd"
