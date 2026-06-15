@@ -33,8 +33,8 @@ export default IndexPage;
 export const Head = () => {
   return (
     <>
-      <title>Sarim Khan ✦ Senior UX Designer</title>
-      <meta property="og:title" content="Sarim Khan ✦ Senior UX Designer" />
+      <title>Sarim Khan ✦ Senior Product Designer</title>
+      <meta property="og:title" content="Sarim Khan ✦ Senior Product Designer" />
       <meta property="og:image" content="../images/faizan/ogimage.png" />
       {/* <meta property="og:url" content={data.datoCmsSeo.url} /> */}
       <meta property="og:description" content="Senior Product Designer with 6 years of experience in fintech, SaaS, and Web3. Based in UAE." />

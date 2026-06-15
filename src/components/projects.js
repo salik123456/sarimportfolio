@@ -9,8 +9,17 @@ import krypt from "../images/faizan/Work/contra-kit green.png";
 import spacelance from "../images/faizan/Work/spacelance.png";
 import infradapp from "../images/faizan/Work/infradapp.png";
 import artbit from "../images/faizan/Work/artbit.png";
+import finstreet from "../images/faizan/Work/finstreet.png";
+import metamask from "../images/faizan/Work/metamask.png";
 
 export let projectList = [
+    {
+    img: finstreet,
+    name: "Finstreet - App Redesign",
+    link: "https://www.figma.com/proto/Qg4ACLu7WA1lzwfPl0XiRX/Design-Portfolio---Case-Studies?node-id=1-8922&t=8Ay9dbyMvbYubjX0-8&scaling=scale-down-width&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A8922&disable-default-keyboard-nav=1&hotspot-hints=0&hide-ui=1",
+    desc: "Redesigning a regulated investment platform from the ground up, and building the design system that made it possible.",
+    isfeatured: true,
+  },
   {
     img: spacelance,
     name: "Spacelance",
@@ -33,6 +42,13 @@ export let projectList = [
     isfeatured: true,
   },
   {
+    img: metamask,
+    name: "MetaMask UX Redesign",
+    link: "https://www.figma.com/proto/xMl9eheq1YlhOeNX3wXESh/Metamask-Redesign-and-Casestudy?page-id=1%3A2811&type=design&node-id=1-2972&viewport=494%2C6625%2C0.41&t=0EGFqWcBCq1WaJ0r-1&scaling=scale-down-width&starting-point-node-id=1%3A2972&hide-ui=1",
+    desc: "Redesigned and proposed some UX tweaks with the possible solutions",
+    isfeatured: true,
+  },
+  {
     img: remit,
     name: "Remit",
     link: "https://www.behance.net/gallery/171473359/Remit-A-Finance-Tracking-App",
@@ -40,8 +56,6 @@ export let projectList = [
     isfeatured: true,
 
   },
-
-
 
   {
     img: krypt,
