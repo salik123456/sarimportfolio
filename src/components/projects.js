@@ -20,14 +20,7 @@ export let projectList = [
     desc: "Redesigning a regulated investment platform from the ground up, and building the design system that made it possible.",
     isfeatured: true,
   },
-  {
-    img: spacelance,
-    name: "Spacelance",
-    link: "https://www.behance.net/gallery/189475637/spacelance",
-    desc: "Landing page for providing freelance visa services",
-    isfeatured: true,
-  },
-  {
+    {
     img: infradapp,
     name: "Infra Dapp",
     link: "https://www.behance.net/gallery/170669543/Infra-Dapp-Casestudy",
@@ -35,27 +28,36 @@ export let projectList = [
     isfeatured: true,
   },
   {
+    img: remit,
+    name: "Remit",
+    link: "https://www.behance.net/gallery/171473359/Remit-A-Finance-Tracking-App",
+    desc: "Consumer mobile app for money transfers and expense tracking.",
+    isfeatured: true,
+
+  },
+  {
+    img: spacelance,
+    name: "Spacelance",
+    link: "https://www.behance.net/gallery/189475637/spacelance",
+    desc: "Landing page for providing freelance visa services",
+    isfeatured: false,
+  },
+
+  {
     img: artbit,
     name: "Artbit UI Kit",
     link: "https://www.behance.net/gallery/180262347/ARTbit-NFT-UI-kits",
     desc: "NFT marketplace UI kit for fellow designers",
-    isfeatured: true,
+    isfeatured: false,
   },
   {
     img: metamask,
     name: "MetaMask UX Redesign",
     link: "https://www.figma.com/proto/xMl9eheq1YlhOeNX3wXESh/Metamask-Redesign-and-Casestudy?page-id=1%3A2811&type=design&node-id=1-2972&viewport=494%2C6625%2C0.41&t=0EGFqWcBCq1WaJ0r-1&scaling=scale-down-width&starting-point-node-id=1%3A2972&hide-ui=1",
     desc: "Redesigned and proposed some UX tweaks with the possible solutions",
-    isfeatured: true,
+    isfeatured: false,
   },
-  {
-    img: remit,
-    name: "Remit",
-    link: "https://www.behance.net/gallery/171473359/Remit-A-Finance-Tracking-App",
-    desc: "Money transfer and expense tracker app",
-    isfeatured: true,
-
-  },
+  
 
   {
     img: krypt,
@@ -69,7 +71,7 @@ export let projectList = [
     name: "KOLnet",
     link: "https://www.behance.net/gallery/157431679/KOLnet-Marketing-Launchpad",
     desc: "Marketing protocol for influencers in web3",
-    isfeatured: true,
+    isfeatured: false,
   },
   {
     img: murask,
