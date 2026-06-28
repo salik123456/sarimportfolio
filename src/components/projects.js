@@ -11,8 +11,16 @@ import infradapp from "../images/faizan/Work/infradapp.png";
 import artbit from "../images/faizan/Work/artbit.png";
 import finstreet from "../images/faizan/Work/finstreet.png";
 import metamask from "../images/faizan/Work/metamask.png";
+import compliance from "../images/faizan/Work/compliance.png";
 
 export let projectList = [
+     {
+    img: compliance,
+    name: "Compliance Dashboard",
+    link: "https://www.figma.com/proto/Qg4ACLu7WA1lzwfPl0XiRX/Design-Portfolio---Case-Studies?node-id=88-394&t=jJLXjjv5edkvxOWH-8&scaling=min-zoom&content-scaling=fixed&page-id=88%3A391&starting-point-node-id=88%3A394&disable-default-keyboard-nav=1&hotspot-hints=0&hide-ui=1",
+    desc: "A centralized KYC review portal for a regulated fintech platform in the UAE.",
+    isfeatured: true,
+  },
     {
     img: finstreet,
     name: "Finstreet - App Redesign",
@@ -32,8 +40,7 @@ export let projectList = [
     name: "Remit",
     link: "https://www.behance.net/gallery/171473359/Remit-A-Finance-Tracking-App",
     desc: "Consumer mobile app for money transfers and expense tracking.",
-    isfeatured: true,
-
+    isfeatured: false,
   },
   {
     img: spacelance,
