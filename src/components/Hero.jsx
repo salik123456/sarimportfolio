@@ -1,5 +1,6 @@
-import React, { lazy, useEffect } from "react";
+import React from "react";
 import ava from "../images/faizan/Avatar/Hexagon.png";
+import ava2 from "../images/faizan/Avatar/newavatar.png";
 
 const Carousel = () => {
   return <div className="border p-4 mt-20"></div>;
@@ -11,15 +12,15 @@ export default function Hero() {
       <div className="flex flex-col pt-36 dark:text-white text-black  ">
         <div className="flex items-center">
           <div className="w-[90px] h-[90px] rounded-full">
-            <img src={ava} className="w-full h-full object-contain" />
+            <img src={ava2} className="w-full h-full object-contain" />
           </div>
           <div className="flex flex-col ml-4">
             <p className="sg  text-[25px]">Sarim Khan</p>
-            <p className="inter text-[16px] font-semibold dark:text-white/40 text-black/40">UX/ Product Designer </p>
+            <p className="inter text-[16px] font-semibold dark:text-white/40 text-black/40">Senior UX/ Product Designer </p>
           </div>
         </div>
         <p className="text-[19px] mt-10  ">
-          Senior Product Designer with 6 years of experience across fintech, SaaS, and Web3. Currently at Finstreet in Abu Dhabi, where I lead design across multiple financial products and own the design system end to end. I design for clarity, for compliance, and for real users making real decisions.
+        Senior UX/ Product Designer with 7 years of experience across fintech, SaaS, and Web3. Currently at Finstreet in Abu Dhabi, where I lead design across multiple financial products and own the design system end to end. I design for clarity, for compliance, and for real users making real decisions.
         </p>
         <p className="mt-4 text-black/60 dark:text-white/60 text-[18px]">
           I revel in producing what I adore through my work{" "}
