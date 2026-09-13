@@ -72,7 +72,7 @@ export default function AboutHero({ webinars }) {
           <strong>hi@sarim.design</strong>
         </a>{" "}
         or{" "}
-        <a target="_blank" href="https://www.linkedin.com/in/faizan-sayani-3b8363145/" className="link-grad">
+        <a target="_blank" href="https://www.linkedin.com/in/sarimkhan-productdesigner/" className="link-grad">
           <strong>linkedin</strong>.
         </a>
         <p className="mt-2 opacity-50 text-[14px]">PS: Just have a cup of coffee while I’m sending you the love</p>
